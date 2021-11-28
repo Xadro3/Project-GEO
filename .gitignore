@@ -72,3 +72,5 @@ crashlytics-build.properties
 Project-Geo/Library/
 
 Project-Geo/Logs/
+
+Project-Geo/Temp/
