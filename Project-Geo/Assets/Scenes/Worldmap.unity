@@ -215,7 +215,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Protoscene
+          m_StringArgument: Dummyscene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &88364447
@@ -427,7 +427,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Protoscene
+          m_StringArgument: Dummyscene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &266607080
@@ -639,7 +639,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Protoscene
+          m_StringArgument: Minigame_2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &850678065
@@ -998,7 +998,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Protoscene
+          m_StringArgument: Dummyscene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1438490726
@@ -1520,7 +1520,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Protoscene
+          m_StringArgument: Minigame_1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2082969753

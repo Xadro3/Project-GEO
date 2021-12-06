@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class Buttoncontroller : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] string szene;
+
     public void StartButton()
     {
-        SceneManager.LoadScene("Protoscene");
+        SceneManager.LoadScene(szene);
     }
     public void CreditsButton()
     {
