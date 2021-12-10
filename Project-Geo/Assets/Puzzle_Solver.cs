@@ -10,6 +10,7 @@ public class Puzzle_Solver : MonoBehaviour
     public List<GameObject> solved_pieces;
     public GameObject nextButton;
     public GameObject dontDestroy;
+    public int errors;
 
     // Update is called once per frame
     private void Start()
@@ -33,6 +34,8 @@ public class Puzzle_Solver : MonoBehaviour
         else
         {
             Debug.Log("Niet Correkt");
+            errors += 1;
+            Debug.Log(errors);
             solved_pieces.Clear();
         }
     }
