@@ -12,6 +12,8 @@ public class Drag : MonoBehaviour
     private Vector3 dragoffset;
     private Camera cam;
     public bool dragging;
+    public bool solved;
+    public GameObject target;
 
     private void Awake()
     {
@@ -38,6 +40,14 @@ public class Drag : MonoBehaviour
         mousePos.z = 0;
         return mousePos;
     }
-    
-    
+    public void Update()
+    {
+        if(target.transform.position == this.transform.position)
+        {
+            solved = true;
+        }
+    }
+
+
+
 }
