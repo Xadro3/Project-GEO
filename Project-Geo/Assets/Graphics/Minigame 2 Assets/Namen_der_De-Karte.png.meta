@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: af81881b809e5cc49ac69cb25b96a86f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9119829739220559485
+    second: Namen_der_De-Karte_0
+  - first:
+      213: 5887851014632658090
+    second: Namen_der_De-Karte_1
+  - first:
+      213: -7745717171809225884
+    second: Namen_der_De-Karte_2
+  - first:
+      213: 7320303886935744700
+    second: Namen_der_De-Karte_3
+  - first:
+      213: 7359418504220412335
+    second: Namen_der_De-Karte_4
+  - first:
+      213: 2091712036305850995
+    second: Namen_der_De-Karte_5
+  - first:
+      213: 8626866931566848979
+    second: Namen_der_De-Karte_6
+  - first:
+      213: -5297923875085075208
+    second: Namen_der_De-Karte_7
+  - first:
+      213: -2387476298033109970
+    second: Namen_der_De-Karte_8
+  - first:
+      213: -6986832156732097965
+    second: Namen_der_De-Karte_9
+  - first:
+      213: -1951897780075166317
+    second: Namen_der_De-Karte_10
+  - first:
+      213: 214861455969272684
+    second: Namen_der_De-Karte_11
+  - first:
+      213: -1638568202385985129
+    second: Namen_der_De-Karte_12
+  - first:
+      213: -6483973868325600125
+    second: Namen_der_De-Karte_13
+  - first:
+      213: 1215031626537147533
+    second: Namen_der_De-Karte_14
+  - first:
+      213: 6924652948514502271
+    second: Namen_der_De-Karte_15
+  - first:
+      213: -2967320715772140018
+    second: Namen_der_De-Karte_16
+  - first:
+      213: 8571927910415232697
+    second: Namen_der_De-Karte_17
+  - first:
+      213: 3898796026940873874
+    second: Namen_der_De-Karte_18
+  - first:
+      213: 7199566527623597540
+    second: Namen_der_De-Karte_19
+  - first:
+      213: 4200383798088727269
+    second: Namen_der_De-Karte_20
+  - first:
+      213: -6366504728023243137
+    second: Namen_der_De-Karte_21
+  - first:
+      213: 1739897091170608537
+    second: Namen_der_De-Karte_22
+  - first:
+      213: -1885178245678855961
+    second: Namen_der_De-Karte_23
+  - first:
+      213: -7615673074020253393
+    second: Namen_der_De-Karte_24
+  - first:
+      213: -4278148321955754959
+    second: Namen_der_De-Karte_25
+  - first:
+      213: 5402309370668391714
+    second: Namen_der_De-Karte_26
+  - first:
+      213: -8535210791376338984
+    second: Namen_der_De-Karte_27
+  - first:
+      213: 2875498795752306503
+    second: Namen_der_De-Karte_28
+  - first:
+      213: 7320033660026791917
+    second: Namen_der_De-Karte_29
+  - first:
+      213: -651635198622801067
+    second: Namen_der_De-Karte_30
+  - first:
+      213: 7164109133697292410
+    second: Namen_der_De-Karte_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 958
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76e84234d4209e70800000000000000
+      internalID: 9119829739220559485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_1
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 932
+        width: 137
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa45a997d49d5b150800000000000000
+      internalID: 5887851014632658090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 856
+        width: 297
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463faa3554fa18490800000000000000
+      internalID: -7745717171809225884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_3
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 884
+        width: 225
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb067bcb991f69560800000000000000
+      internalID: 7320303886935744700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 811
+        width: 152
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa98e714328e12660800000000000000
+      internalID: 7359418504220412335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 846
+        width: 96
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3725b60c301470d10800000000000000
+      internalID: 2091712036305850995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 758
+        width: 244
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db2b9464c9c8b770800000000000000
+      internalID: 8626866931566848979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 789
+        width: 274
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc3e722e4ef976b0800000000000000
+      internalID: -5297923875085075208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 753
+        width: 184
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e246212d4fafdded0800000000000000
+      internalID: -2387476298033109970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 717
+        width: 152
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35af4b8db29c90f90800000000000000
+      internalID: -6986832156732097965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 703
+        width: 193
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3950fb48f4779e4e0800000000000000
+      internalID: -1951897780075166317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 619
+        width: 387
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63c8f61b575bf200800000000000000
+      internalID: 214861455969272684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 665
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7917884c6e2a249e0800000000000000
+      internalID: -1638568202385985129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 582
+        width: 133
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384898dce1c4406a0800000000000000
+      internalID: -6483973868325600125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 566
+        width: 283
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9c9aa3d8acd010800000000000000
+      internalID: 1215031626537147533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 531
+        width: 209
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7671151b2f491060800000000000000
+      internalID: 6924652948514502271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_16
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 521
+        width: 206
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e066eb1d785f1d6d0800000000000000
+      internalID: -2967320715772140018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 495
+        width: 157
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be6e8cb40b95f670800000000000000
+      internalID: 8571927910415232697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 467
+        width: 258
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cd38d645e4b1630800000000000000
+      internalID: 3898796026940873874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 446
+        width: 398
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0cc7ac9ff9e360800000000000000
+      internalID: 7199566527623597540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_20
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 420
+        width: 146
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea726d4fc2ca4a30800000000000000
+      internalID: 4200383798088727269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 410
+        width: 95
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7664595ea1a5a7a0800000000000000
+      internalID: -6366504728023243137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 362
+        width: 177
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995a5f0af2b552810800000000000000
+      internalID: 1739897091170608537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_23
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 317
+        width: 384
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e88408af5086d5e0800000000000000
+      internalID: -1885178245678855961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_24
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 325
+        width: 149
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21048150b1bf4690800000000000000
+      internalID: -7615673074020253393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 276
+        width: 365
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cc46d84c6f0a4c0800000000000000
+      internalID: -4278148321955754959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_26
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 275
+        width: 149
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d147dffbbd8fa40800000000000000
+      internalID: 5402309370668391714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 232
+        width: 180
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfbee8b107dc8980800000000000000
+      internalID: -8535210791376338984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 222
+        width: 204
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74731e07be2d7e720800000000000000
+      internalID: 2875498795752306503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 136
+        width: 238
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7acc1a4dbf59560800000000000000
+      internalID: 7320033660026791917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 99
+        width: 177
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55362f64d3de4f6f0800000000000000
+      internalID: -651635198622801067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namen_der_De-Karte_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 298
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78982ecc470c6360800000000000000
+      internalID: 7164109133697292410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
