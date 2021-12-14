@@ -315,7 +315,7 @@ MonoBehaviour:
   - {fileID: 1265470826}
   - {fileID: 1722477679}
   solved_pieces: []
-  nextButton: {fileID: 0}
+  nextButton: {fileID: 2031294922}
   dontDestroy: {fileID: 0}
   errors: 0
 --- !u!114 &87425640
