@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class CharakterCreationVer1 : MonoBehaviour
 {
     public SpriteRenderer headrend;
+    public SpriteRenderer bodyrend;
 
     private Dictionary<string, string> colors =
         new Dictionary<string, string>()
@@ -19,8 +21,44 @@ public class CharakterCreationVer1 : MonoBehaviour
     private int bodyID;
     private int bodyColorID;
 
+    public Color[] coloris;
+
     [SerializeField] private Sprite[] head;
     [SerializeField] private Sprite[] body;
+
+    //private void Awake()
+    //{
+    //    headID = PlayerPrefs.GetInt("head", 0);
+    //    bodyID = PlayerPrefs.GetInt("body", 0);
+    //    headColorID = PlayerPrefs.GetInt("headColor", 0);
+    //    bodyColorID = PlayerPrefs.GetInt("bodyColor", 0);
+    //}
+
+    //private void Start()
+    //{
+    //    SetItem("head");
+    //    SetItem("body");
+    //    SetItem("headColor");
+    //    SetItem("bodyColor");
+    //}
+
+    void Update()
+    {
+        for (int i = 0; i < head.Length; i++)
+        {
+            if (i == headID)
+            {
+                headrend.sprite = head[i];
+            }
+        }
+        for (int i = 0; i < body.Length; i++)
+        {
+            if (i == bodyID)
+            {
+                bodyrend.sprite = body[i];
+            }
+        }
+    }
 
     public void SelectHead(bool isForward)
     {
@@ -37,9 +75,17 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
         else
         {
-            headID--;
+            if (headID == 0)
+            {
+                headID = head.Length - 1;
+            }
+            else
+            {
+                headID--;
+            }
         }
     }
+    
     public void SelectBody(bool isForward)
     {
         if (isForward)
@@ -55,10 +101,17 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
         else
         {
-            bodyID--;
+            if (bodyID == 0)
+            {
+                bodyID = body.Length - 1;
+            }
+            else
+            {
+                bodyID--;
+            }
         }
     }
-
+    
     public void SelectBodyColor(bool isForward)
     {
         if (isForward)
@@ -74,7 +127,14 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
         else
         {
-            bodyColorID--;
+            if (bodyColorID == 0)
+            {
+                bodyColorID = colors.Count - 1;
+            }
+            else
+            {
+                bodyColorID--;
+            }
         }
     }
 
@@ -93,7 +153,14 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
         else
         {
-            headColorID--;
+            if (headColorID == 0)
+            {
+                headColorID = colors.Count - 1;
+            }
+            else
+            {
+                headColorID--;
+            }
         }
     }
 }

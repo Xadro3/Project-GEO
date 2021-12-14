@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dummyscene.unity
     guid: 79c747a554f6c0e44aaf15417bcf6b10
+  - enabled: 1
+    path: "Assets/Scenes/Einf\xFChrung.unity"
+    guid: f99e80fe74f41a0428f96ffb388df4b7
   m_configObjects: {}
