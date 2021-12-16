@@ -2,24 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.UI;
 
 public class CharakterCreationVer1 : MonoBehaviour
 {
     public SpriteRenderer headrend;
+    public Image kopf;
     public SpriteRenderer bodyrend;
+    public Image körper;
 
-    private Dictionary<string, string> colors =
-        new Dictionary<string, string>()
-        {
-            {"Rot", "#E74C3C" },
-            {"orange", "#E78A3C" },
-            {"Gelb", "#FFFF00" }
-        };
+    //private Dictionary<string, string> colors =
+    //    new Dictionary<string, string>()
+    //    {
+    //        {"Rot", "#E74C3C" },
+    //        {"orange", "#E78A3C" },
+    //        {"Gelb", "#FFFF00" }
+    //    };
 
     private int headID;
-    private int headColorID;
+    private int headColorID = 1;
     private int bodyID;
-    private int bodyColorID;
+    public int bodyColorID = 1;
 
     public Color[] coloris;
 
@@ -58,6 +61,17 @@ public class CharakterCreationVer1 : MonoBehaviour
                 bodyrend.sprite = body[i];
             }
         }
+
+        körper.color = bodyrend.color;
+
+        for (int i = 0; i < coloris.Length; i++)
+        {
+            if (i == bodyColorID)
+            {
+                bodyrend.color = coloris[i];
+            }
+        }
+
     }
 
     public void SelectHead(bool isForward)
@@ -116,7 +130,7 @@ public class CharakterCreationVer1 : MonoBehaviour
     {
         if (isForward)
         {
-            if (bodyColorID == colors.Count - 1)
+            if (bodyColorID == coloris.Length - 1)
             {
                 bodyColorID = 0;
             }
@@ -129,7 +143,7 @@ public class CharakterCreationVer1 : MonoBehaviour
         {
             if (bodyColorID == 0)
             {
-                bodyColorID = colors.Count - 1;
+                bodyColorID = coloris.Length - 1;
             }
             else
             {
@@ -142,7 +156,7 @@ public class CharakterCreationVer1 : MonoBehaviour
     {
         if (isForward)
         {
-            if (headColorID == colors.Count - 1)
+            if (headColorID == coloris.Length - 1)
             {
                 headColorID = 0;
             }
@@ -155,7 +169,7 @@ public class CharakterCreationVer1 : MonoBehaviour
         {
             if (headColorID == 0)
             {
-                headColorID = colors.Count - 1;
+                headColorID = coloris.Length - 1;
             }
             else
             {
