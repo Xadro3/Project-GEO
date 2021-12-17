@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Einf\xFChrung.unity"
     guid: f99e80fe74f41a0428f96ffb388df4b7
+  - enabled: 1
+    path: Assets/Scenes/Charakter Creation Test 2.unity
+    guid: e8d2ff6ad1292ae4ab08f9915abbca75
+  - enabled: 1
+    path: Assets/Scenes/Ende.unity
+    guid: 9a662266e208dd048b0b8c93d2319c64
   m_configObjects: {}
