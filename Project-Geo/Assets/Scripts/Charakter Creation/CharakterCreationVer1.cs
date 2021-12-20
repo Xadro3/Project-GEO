@@ -10,6 +10,7 @@ public class CharakterCreationVer1 : MonoBehaviour
     public Image kopf;
     public SpriteRenderer bodyrend;
     public Image körper;
+    public SpriteRenderer eyerend;
 
     //private Dictionary<string, string> colors =
     //    new Dictionary<string, string>()
@@ -22,12 +23,14 @@ public class CharakterCreationVer1 : MonoBehaviour
     private int headID;
     private int headColorID = 1;
     private int bodyID;
-    public int bodyColorID = 1;
+    private int bodyColorID = 1;
+    private int eyeID;
 
-    public Color[] coloris;
+    public Color[] coloris; // Farb Feld in unity anpassbar, soll nutzbar zur asset farbwechsel sein (ists momentan nicht.)
 
     [SerializeField] private Sprite[] head;
     [SerializeField] private Sprite[] body;
+    [SerializeField] private Sprite[] eye;
 
     //private void Awake()
     //{
@@ -47,14 +50,15 @@ public class CharakterCreationVer1 : MonoBehaviour
 
     void Update()
     {
-        for (int i = 0; i < head.Length; i++)
+        for (int i = 0; i < head.Length; i++) // Kopf
         {
             if (i == headID)
             {
                 headrend.sprite = head[i];
             }
         }
-        for (int i = 0; i < body.Length; i++)
+        
+        for (int i = 0; i < body.Length; i++) // Körper
         {
             if (i == bodyID)
             {
@@ -62,6 +66,15 @@ public class CharakterCreationVer1 : MonoBehaviour
             }
         }
 
+        for (int i = 0; i < eye.Length; i++) // Augen
+        {
+            if (i == eyeID)
+            {
+                eyerend.sprite = eye[i];
+            }
+        }
+
+        // Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
         körper.color = bodyrend.color;
 
         for (int i = 0; i < coloris.Length; i++)
@@ -72,9 +85,19 @@ public class CharakterCreationVer1 : MonoBehaviour
             }
         }
 
+        kopf.color = headrend.color;
+
+        for (int i = 0; i < coloris.Length; i++)
+        {
+            if (i == headColorID)
+            {
+                headrend.color = coloris[i];
+            }
+        }
+        // ...endet hier
     }
 
-    public void SelectHead(bool isForward)
+    public void SelectHead(bool isForward) // zur auswahl des Kopfes
     {
         if (isForward)
         {
@@ -100,7 +123,7 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
     }
     
-    public void SelectBody(bool isForward)
+    public void SelectBody(bool isForward)// zur auswahl des Körpers
     {
         if (isForward)
         {
@@ -125,8 +148,34 @@ public class CharakterCreationVer1 : MonoBehaviour
             }
         }
     }
-    
-    public void SelectBodyColor(bool isForward)
+
+    public void SelectEye(bool isForward) // zur auswahl des Kopfes
+    {
+        if (isForward)
+        {
+            if (eyeID == eye.Length - 1)
+            {
+                eyeID = 0;
+            }
+            else
+            {
+                eyeID++;
+            }
+        }
+        else
+        {
+            if (eyeID == 0)
+            {
+                eyeID = eye.Length - 1;
+            }
+            else
+            {
+                eyeID--;
+            }
+        }
+    }
+
+    public void SelectBodyColor(bool isForward) // zur auswahl der Körperfarbe
     {
         if (isForward)
         {
@@ -152,7 +201,7 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
     }
 
-    public void SelectHeadColor(bool isForward)
+    public void SelectHeadColor(bool isForward) // zur Farbauswahl für den Kopf
     {
         if (isForward)
         {
