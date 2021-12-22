@@ -14,10 +14,20 @@ public class Quizmaster : MonoBehaviour
     [SerializeField] List<Button> nextbuttonset;
     [SerializeField] List<Button> nextbuttonset2;
     [SerializeField] Button nextButton;
+    [SerializeField] Button endButton;
+    [SerializeField] GameObject resultScreen;
+    [SerializeField] GameObject bronze;
+    [SerializeField] GameObject silver;
+    [SerializeField] GameObject gold;
+
+
     public int failures = 0;
     public int cardSet = 1;
     public int btnnmbr;
-
+    public double timeElapsed;
+    public float smoothTime = 0.3F;
+    private Vector3 velocity = Vector3.zero;
+    public Vector3 targetPosition = new Vector3(0, 8, 0);
     public void answer(bool selection)
     {
         if (selection)
@@ -59,7 +69,7 @@ public class Quizmaster : MonoBehaviour
         }
         if(cardSet == 4)
         {
-            SceneManager.LoadScene("Worldmap");
+            end();
         }
 
         foreach(Button i in buttons)
@@ -67,6 +77,52 @@ public class Quizmaster : MonoBehaviour
             i.gameObject.SetActive(true);
         }
         nextButton.gameObject.SetActive(false);
+    }
+    public void end()
+    {
+        
+        if(failures == 0 && Time.timeSinceLevelLoadAsDouble < 60)
+        {
+            nextButton.gameObject.SetActive(false);
+            timeElapsed = Time.timeSinceLevelLoadAsDouble;
+            gold.gameObject.SetActive(true);
+            StartCoroutine(move());
+            
+            
+            Debug.Log(timeElapsed);
+            endButton.gameObject.SetActive(true);
+        }
+        if (failures >0 || Time.timeSinceLevelLoadAsDouble > 60)
+        {
+            nextButton.gameObject.SetActive(false);
+            timeElapsed = Time.timeSinceLevelLoadAsDouble;
+            silver.gameObject.SetActive(true);
+            StartCoroutine(move());
+            endButton.gameObject.SetActive(true);
+            Debug.Log(timeElapsed);
+        }
+        if (failures >= 1 && Time.timeSinceLevelLoadAsDouble > 60)
+        {
+            nextButton.gameObject.SetActive(false);
+            timeElapsed = Time.timeSinceLevelLoadAsDouble;
+            bronze.gameObject.SetActive(true);
+            StartCoroutine(move());
+            endButton.gameObject.SetActive(true);
+            Debug.Log(timeElapsed);
+            
+        }
+    }
+    public void nextScene()
+    {
+        SceneManager.LoadScene("Worldmap");
+    }
+    IEnumerator move()
+    {
+        while (resultScreen.transform.position != targetPosition)
+        {
+            resultScreen.transform.position = Vector3.SmoothDamp(resultScreen.transform.position, targetPosition, ref velocity, smoothTime);
+            yield return new WaitForEndOfFrame();
+        }
     }
 
 }
