@@ -74,27 +74,27 @@ public class CharakterCreationVer1 : MonoBehaviour
             }
         }
 
-        // Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
-        körper.color = bodyrend.color;
+        //// Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
+        //körper.color = bodyrend.color;
 
-        for (int i = 0; i < coloris.Length; i++)
-        {
-            if (i == bodyColorID)
-            {
-                bodyrend.color = coloris[i];
-            }
-        }
+        //for (int i = 0; i < coloris.Length; i++)
+        //{
+        //    if (i == bodyColorID)
+        //    {
+        //        bodyrend.color = coloris[i];
+        //    }
+        //}
 
-        kopf.color = headrend.color;
+        //kopf.color = headrend.color;
 
-        for (int i = 0; i < coloris.Length; i++)
-        {
-            if (i == headColorID)
-            {
-                headrend.color = coloris[i];
-            }
-        }
-        // ...endet hier
+        //for (int i = 0; i < coloris.Length; i++)
+        //{
+        //    if (i == headColorID)
+        //    {
+        //        headrend.color = coloris[i];
+        //    }
+        //}
+        //// ...endet hier
     }
 
     public void SelectHead(bool isForward) // zur auswahl des Kopfes
