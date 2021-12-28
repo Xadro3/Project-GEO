@@ -21,9 +21,9 @@ public class CharakterCreationVer1 : MonoBehaviour
     //    };
 
     private int headID;
-    private int headColorID = 1;
+//    private int headColorID = 1;
     private int bodyID;
-    private int bodyColorID = 1;
+//    private int bodyColorID = 1;
     private int eyeID;
 
     public Color[] coloris; // Farb Feld in unity anpassbar, soll nutzbar zur asset farbwechsel sein (ists momentan nicht.)
@@ -74,7 +74,7 @@ public class CharakterCreationVer1 : MonoBehaviour
             }
         }
 
-        //// Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
+//// Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
         //körper.color = bodyrend.color;
 
         //for (int i = 0; i < coloris.Length; i++)
@@ -94,7 +94,7 @@ public class CharakterCreationVer1 : MonoBehaviour
         //        headrend.color = coloris[i];
         //    }
         //}
-        //// ...endet hier
+//// ...endet hier
     }
 
     public void SelectHead(bool isForward) // zur auswahl des Kopfes
@@ -175,55 +175,55 @@ public class CharakterCreationVer1 : MonoBehaviour
         }
     }
 
-    public void SelectBodyColor(bool isForward) // zur auswahl der Körperfarbe
-    {
-        if (isForward)
-        {
-            if (bodyColorID == coloris.Length - 1)
-            {
-                bodyColorID = 0;
-            }
-            else
-            {
-                bodyColorID++;
-            }
-        }
-        else
-        {
-            if (bodyColorID == 0)
-            {
-                bodyColorID = coloris.Length - 1;
-            }
-            else
-            {
-                bodyColorID--;
-            }
-        }
-    }
+    //public void SelectBodyColor(bool isForward) // zur auswahl der Körperfarbe
+    //{
+    //    if (isForward)
+    //    {
+    //        if (bodyColorID == coloris.Length - 1)
+    //        {
+    //            bodyColorID = 0;
+    //        }
+    //        else
+    //        {
+    //            bodyColorID++;
+    //        }
+    //    }
+    //    else
+    //    {
+    //        if (bodyColorID == 0)
+    //        {
+    //            bodyColorID = coloris.Length - 1;
+    //        }
+    //        else
+    //        {
+    //            bodyColorID--;
+    //        }
+    //    }
+    //}
 
-    public void SelectHeadColor(bool isForward) // zur Farbauswahl für den Kopf
-    {
-        if (isForward)
-        {
-            if (headColorID == coloris.Length - 1)
-            {
-                headColorID = 0;
-            }
-            else
-            {
-                headColorID++;
-            }
-        }
-        else
-        {
-            if (headColorID == 0)
-            {
-                headColorID = coloris.Length - 1;
-            }
-            else
-            {
-                headColorID--;
-            }
-        }
-    }
+    //public void SelectHeadColor(bool isForward) // zur Farbauswahl für den Kopf
+    //{
+    //    if (isForward)
+    //    {
+    //        if (headColorID == coloris.Length - 1)
+    //        {
+    //            headColorID = 0;
+    //        }
+    //        else
+    //        {
+    //            headColorID++;
+    //        }
+    //    }
+    //    else
+    //    {
+    //        if (headColorID == 0)
+    //        {
+    //            headColorID = coloris.Length - 1;
+    //        }
+    //        else
+    //        {
+    //            headColorID--;
+    //        }
+    //    }
+    //}
 }
