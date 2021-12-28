@@ -7,18 +7,9 @@ using UnityEngine.UI;
 public class CharakterCreationVer1 : MonoBehaviour
 {
     public SpriteRenderer headrend;
-    public Image kopf;
     public SpriteRenderer bodyrend;
-    public Image körper;
     public SpriteRenderer eyerend;
 
-    //private Dictionary<string, string> colors =
-    //    new Dictionary<string, string>()
-    //    {
-    //        {"Rot", "#E74C3C" },
-    //        {"orange", "#E78A3C" },
-    //        {"Gelb", "#FFFF00" }
-    //    };
 
     private int headID;
 //    private int headColorID = 1;
@@ -26,7 +17,7 @@ public class CharakterCreationVer1 : MonoBehaviour
 //    private int bodyColorID = 1;
     private int eyeID;
 
-    public Color[] coloris; // Farb Feld in unity anpassbar, soll nutzbar zur asset farbwechsel sein (ists momentan nicht.)
+    //public Color[] coloris; // Farb Feld in unity anpassbar, soll nutzbar zur asset farbwechsel sein (ists momentan nicht.)
 
     [SerializeField] private Sprite[] head;
     [SerializeField] private Sprite[] body;

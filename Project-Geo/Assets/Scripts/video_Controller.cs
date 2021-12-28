@@ -5,7 +5,7 @@ using UnityEngine.Video;
 
 public class video_Controller : MonoBehaviour
 {
-    public string url;
+    public string vidname;
     VideoPlayer vidplayer;
 
 
@@ -13,7 +13,8 @@ public class video_Controller : MonoBehaviour
     void Start()
     {
         vidplayer = GetComponent<VideoPlayer>();
-        vidplayer.url = url;
+        vidplayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, vidname);
+
     }
 
     // Update is called once per frame
