@@ -314,7 +314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 90
-    width: 77.2
+    width: 77.21649
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -357,11 +357,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 8.164949, y: 12.8350315}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402.8
-  zoom: 1
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -563,7 +563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355
     y: 221
-    width: 117.2
+    width: 111.85567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2853,8 +2853,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 7.9000244, y: 10.254}
-  m_SizeDelta: {x: -61, y: -70.753}
+  m_AnchoredPosition: {x: 7.9000244, y: 21.558}
+  m_SizeDelta: {x: -61, y: -48.146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1616218953
 MonoBehaviour:
@@ -2906,9 +2906,9 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 4
+    m_LineSpacing: 1
   m_Text: "hallooislkfhal\xF6fkh"
 --- !u!222 &1616218955
 CanvasRenderer:
