@@ -20,7 +20,7 @@ public class Quizmaster : MonoBehaviour
     [SerializeField] GameObject silver;
     [SerializeField] GameObject gold;
 
-
+    public GameObject dontDestroy;
     public int failures = 0;
     public int cardSet = 1;
     public int btnnmbr;
@@ -28,6 +28,11 @@ public class Quizmaster : MonoBehaviour
     public float smoothTime = 0.3F;
     private Vector3 velocity = Vector3.zero;
     public Vector3 targetPosition = new Vector3(0, 8, 0);
+
+    private void Start()
+    {
+        dontDestroy = GameObject.Find("DontDestroyOnLoad");
+    }
     public void answer(bool selection)
     {
         if (selection)
@@ -91,6 +96,7 @@ public class Quizmaster : MonoBehaviour
             
             Debug.Log(timeElapsed);
             endButton.gameObject.SetActive(true);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
         }
         if (failures >0 || Time.timeSinceLevelLoadAsDouble > 60)
         {
@@ -100,6 +106,7 @@ public class Quizmaster : MonoBehaviour
             StartCoroutine(move());
             endButton.gameObject.SetActive(true);
             Debug.Log(timeElapsed);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
         }
         if (failures >= 1 && Time.timeSinceLevelLoadAsDouble > 60)
         {
@@ -109,12 +116,15 @@ public class Quizmaster : MonoBehaviour
             StartCoroutine(move());
             endButton.gameObject.SetActive(true);
             Debug.Log(timeElapsed);
-            
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(3);
+
         }
     }
     public void nextScene()
     {
+        dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
         SceneManager.LoadScene("Worldmap");
+
     }
     IEnumerator move()
     {

@@ -6,6 +6,7 @@ public class DontDestroyOnLoad_MapKeys : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<bool> solved_games;
+    public List<int> resutls;
     private static DontDestroyOnLoad_MapKeys dontDestroyinstance;
     void Start()
     {

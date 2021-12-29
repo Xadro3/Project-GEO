@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Puzzle_Solver : MonoBehaviour
 {
@@ -9,8 +11,17 @@ public class Puzzle_Solver : MonoBehaviour
     public List<GameObject> pieces;
     public List<GameObject> solved_pieces;
     public GameObject nextButton;
+    public Button endbutton;
     public GameObject dontDestroy;
+    public GameObject resultScreen;
+    public GameObject bronze;
+    public GameObject silver;
+    public GameObject gold;
     public int errors;
+    public double timeElapsed;
+    public Vector3 targetPosition = new Vector3(0, 8, 0);
+    public float smoothTime = 0.3F;
+    private Vector3 velocity = Vector3.zero;
 
     // Update is called once per frame
     private void Start()
@@ -29,7 +40,7 @@ public class Puzzle_Solver : MonoBehaviour
         if (pieces.Count==solved_pieces.Count)
         {
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
-            nextButton.SetActive(true);
+            end();
         }
         else
         {
@@ -37,6 +48,53 @@ public class Puzzle_Solver : MonoBehaviour
             errors += 1;
             Debug.Log(errors);
             solved_pieces.Clear();
+        }
+
+    }
+    public void end()
+    {
+        if(errors == 0 && Time.timeSinceLevelLoadAsDouble < 60)
+        {
+            nextButton.gameObject.SetActive(false);
+            timeElapsed = Time.timeSinceLevelLoadAsDouble;
+            gold.gameObject.SetActive(true);
+            StartCoroutine(move());
+
+            endbutton.gameObject.SetActive(true);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
+        }
+        if (errors > 0 || Time.timeSinceLevelLoadAsDouble > 60)
+        {
+            nextButton.gameObject.SetActive(false);
+            timeElapsed = Time.timeSinceLevelLoadAsDouble;
+            gold.gameObject.SetActive(true);
+            StartCoroutine(move());
+
+            endbutton.gameObject.SetActive(true);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
+        }
+        if (errors >= 0 && Time.timeSinceLevelLoadAsDouble > 60)
+        {
+            nextButton.gameObject.SetActive(false);
+            timeElapsed = Time.timeSinceLevelLoadAsDouble;
+            gold.gameObject.SetActive(true);
+            StartCoroutine(move());
+
+            endbutton.gameObject.SetActive(true);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(3);
+        }
+    }
+
+    public void nextScene()
+    {
+        SceneManager.LoadScene("Worldmap");
+    }
+    IEnumerator move()
+    {
+        while (resultScreen.transform.position != targetPosition)
+        {
+            resultScreen.transform.position = Vector3.SmoothDamp(resultScreen.transform.position, targetPosition, ref velocity, smoothTime);
+            yield return new WaitForEndOfFrame();
         }
     }
 }
