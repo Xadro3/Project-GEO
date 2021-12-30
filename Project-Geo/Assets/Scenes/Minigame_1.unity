@@ -255,9 +255,7 @@ GameObject:
   - component: {fileID: 41662738}
   - component: {fileID: 41662737}
   - component: {fileID: 41662739}
-  - component: {fileID: 41662741}
-  - component: {fileID: 41662740}
-  - component: {fileID: 41662733}
+  - component: {fileID: 41662742}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -430,6 +428,7 @@ MonoBehaviour:
   - {fileID: 41662719}
   - {fileID: 41662718}
   - {fileID: 41662717}
+  - {fileID: 41662742}
   - {fileID: 41662716}
   - {fileID: 41662715}
   - {fileID: 41662714}
@@ -458,7 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 9.795336, y: 320.88654}
+  scrollPos: {x: -80.82966, y: 316.19904}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402.8
@@ -469,8 +468,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 41662702}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -695,10 +693,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Setz ihn jetzt bitte wieder richtig zusammen.
+  storyText: Setz ihn bitte wieder richtig zusammen.
   description: 
   character: {fileID: 463365122}
-  portrait: {fileID: 21300000, guid: ce24d3f1b6e167349a633d5b3d9b685f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1190,27 +1188,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &41662733
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41662696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 45
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 701040167}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &41662734
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1343,7 +1320,7 @@ MonoBehaviour:
     stringVal: Worldmap
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &41662740
+--- !u!114 &41662742
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1352,39 +1329,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 41662696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 41662741}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 2101939111}
---- !u!114 &41662741
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41662696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 71.454605
-    y: 313.48834
-    width: 209.99997
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 44
-  blockName: "Wenn Solve knopf gedr\xFCckt"
+  itemId: 46
+  indentLevel: 0
+  storyText: Nachdems Elon Musk noch nicht gibt, hahaha!
   description: 
-  eventHandler: {fileID: 41662740}
-  commandList:
-  - {fileID: 41662733}
-  suppressAllAutoSelections: 0
+  character: {fileID: 67964649}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &57834112
 GameObject:
   m_ObjectHideFlags: 0
