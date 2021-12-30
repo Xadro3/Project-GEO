@@ -315,7 +315,7 @@ MonoBehaviour:
   - {fileID: 1265470826}
   - {fileID: 1722477679}
   solved_pieces: []
-  nextButton: {fileID: 2031294922}
+  nextButton: {fileID: 797809223}
   endbutton: {fileID: 2031294924}
   dontDestroy: {fileID: 0}
   resultScreen: {fileID: 452430233}
@@ -730,7 +730,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 23
+  m_SortingOrder: 25
   m_Sprite: {fileID: 21300000, guid: 92a518d14d1494d4e8c70ca2c1b2d28b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5208,7 +5208,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 25
+  m_SortingOrder: 23
   m_Sprite: {fileID: 21300000, guid: ef163298ac92c7d4489c43d0cf883fbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

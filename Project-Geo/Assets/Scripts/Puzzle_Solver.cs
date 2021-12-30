@@ -40,6 +40,7 @@ public class Puzzle_Solver : MonoBehaviour
         if (pieces.Count==solved_pieces.Count)
         {
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
+            Debug.Log(errors);
             end();
         }
         else
@@ -58,26 +59,29 @@ public class Puzzle_Solver : MonoBehaviour
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
             gold.gameObject.SetActive(true);
+            Debug.Log(timeElapsed);
             StartCoroutine(move());
 
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
         }
-        if (errors > 0 || Time.timeSinceLevelLoadAsDouble > 60)
+        if (errors == 1 && Time.timeSinceLevelLoadAsDouble < 60)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
-            gold.gameObject.SetActive(true);
+            silver.gameObject.SetActive(true);
+            Debug.Log(timeElapsed);
             StartCoroutine(move());
 
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
         }
-        if (errors >= 0 && Time.timeSinceLevelLoadAsDouble > 60)
+        if (errors > 1 || Time.timeSinceLevelLoadAsDouble > 60)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
-            gold.gameObject.SetActive(true);
+            Debug.Log(timeElapsed);
+            bronze.gameObject.SetActive(true);
             StartCoroutine(move());
 
             endbutton.gameObject.SetActive(true);

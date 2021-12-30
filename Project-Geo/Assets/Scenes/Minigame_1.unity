@@ -4451,7 +4451,7 @@ MonoBehaviour:
   - {fileID: 1472583102}
   - {fileID: 1804202638}
   solved_pieces: []
-  nextButton: {fileID: 1788882864}
+  nextButton: {fileID: 2101939109}
   endbutton: {fileID: 1788882866}
   dontDestroy: {fileID: 0}
   resultScreen: {fileID: 1847191619}
