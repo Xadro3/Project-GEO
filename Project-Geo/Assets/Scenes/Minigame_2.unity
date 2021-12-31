@@ -3014,6 +3014,10 @@ GameObject:
   - component: {fileID: 909850168}
   - component: {fileID: 909850167}
   - component: {fileID: 909850177}
+  - component: {fileID: 909850176}
+  - component: {fileID: 909850175}
+  - component: {fileID: 909850174}
+  - component: {fileID: 909850155}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3204,6 +3208,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &909850155
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 10
+  durationOLD: 0
 --- !u!114 &909850156
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3389,8 +3411,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 909850161}
+  selectedCommands:
+  - {fileID: 909850165}
   variables: []
   description: 
   stepPause: 0
@@ -3609,8 +3633,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 83
-    y: 223
+    x: 100
+    y: 179
     width: 76.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3623,6 +3647,70 @@ MonoBehaviour:
   - {fileID: 909850168}
   - {fileID: 909850171}
   - {fileID: 909850167}
+  suppressAllAutoSelections: 0
+--- !u!114 &909850174
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 138008431}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &909850175
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 909850176}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &909850176
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 278
+    y: 180
+    width: 175.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 24
+  blockName: Hilfe Button Wartezeit
+  description: 
+  eventHandler: {fileID: 909850175}
+  commandList:
+  - {fileID: 909850155}
+  - {fileID: 909850174}
   suppressAllAutoSelections: 0
 --- !u!114 &909850177
 MonoBehaviour:
