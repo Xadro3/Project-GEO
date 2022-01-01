@@ -20,7 +20,11 @@ public class video_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Play();
+        if (Input.anyKey)
+        {
+            Play();
+        }
+
     }
     void Play()
     {
