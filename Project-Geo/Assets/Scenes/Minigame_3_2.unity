@@ -998,7 +998,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c367c2022640e84dbc77374d5700b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pieces: []
+  pieces:
+  - {fileID: 956813458}
+  - {fileID: 1240205268}
+  - {fileID: 189611246}
+  - {fileID: 1599242464}
+  - {fileID: 102234336}
   solved_pieces: []
   nextButton: {fileID: 1675922853}
   endbutton: {fileID: 1345701814}
