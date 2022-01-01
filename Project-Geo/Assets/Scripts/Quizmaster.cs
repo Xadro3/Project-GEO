@@ -19,6 +19,9 @@ public class Quizmaster : MonoBehaviour
     [SerializeField] GameObject bronze;
     [SerializeField] GameObject silver;
     [SerializeField] GameObject gold;
+    [SerializeField] GameObject text;
+    [SerializeField] GameObject text_1;
+    [SerializeField] GameObject text_2;
 
     public GameObject dontDestroy;
     public int failures = 0;
@@ -66,11 +69,15 @@ public class Quizmaster : MonoBehaviour
         {
             buttons.Clear();
             buttons = nextbuttonset;
+            text.gameObject.SetActive(false);
+            text_1.gameObject.SetActive(true);
         }
         if(cardSet == 3)
         {
             buttons.Clear();
             buttons = nextbuttonset2;
+            text_1.gameObject.SetActive(false);
+            text_2.gameObject.SetActive(true);
         }
         if(cardSet == 4)
         {
@@ -134,5 +141,6 @@ public class Quizmaster : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
     }
+    
 
 }

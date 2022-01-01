@@ -1893,7 +1893,7 @@ GameObject:
   - component: {fileID: 931897683}
   - component: {fileID: 931897682}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: Text_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3571,6 +3571,9 @@ MonoBehaviour:
   bronze: {fileID: 1812016539}
   silver: {fileID: 1596527029}
   gold: {fileID: 2079566715}
+  text: {fileID: 1231769691}
+  text_1: {fileID: 931897680}
+  text_2: {fileID: 1883699649}
   dontDestroy: {fileID: 0}
   failures: 0
   cardSet: 1
@@ -4591,7 +4594,7 @@ GameObject:
   - component: {fileID: 1883699652}
   - component: {fileID: 1883699651}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: Text_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

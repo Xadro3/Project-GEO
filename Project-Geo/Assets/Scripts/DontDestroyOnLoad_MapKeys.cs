@@ -8,6 +8,8 @@ public class DontDestroyOnLoad_MapKeys : MonoBehaviour
     public List<bool> solved_games;
     public List<int> resutls;
     private static DontDestroyOnLoad_MapKeys dontDestroyinstance;
+    public int errorsMinigame3_1;
+    public double timeMinigame3_1;
     void Start()
     {
        
