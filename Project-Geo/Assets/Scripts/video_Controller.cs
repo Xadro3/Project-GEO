@@ -14,7 +14,6 @@ public class video_Controller : MonoBehaviour
     {
         vidplayer = GetComponent<VideoPlayer>();
         vidplayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, vidname);
-
     }
 
     // Update is called once per frame
