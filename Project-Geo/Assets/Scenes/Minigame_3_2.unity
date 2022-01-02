@@ -1082,6 +1082,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663543512}
+  - component: {fileID: 663543513}
   m_Layer: 0
   m_Name: SnapPoints
   m_TagString: Untagged
@@ -1108,6 +1109,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &663543513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663543511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2a607106dbf3748b988de622c343c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapPoints:
+  - {fileID: 486776359}
+  - {fileID: 568669449}
+  - {fileID: 942166638}
+  - {fileID: 1268541962}
+  - {fileID: 2005899847}
+  objects:
+  - {fileID: 956813461}
+  - {fileID: 1240205271}
+  - {fileID: 189611249}
+  - {fileID: 1599242467}
+  - {fileID: 102234339}
+  snapRange: 0.5
 --- !u!1 &725614865
 GameObject:
   m_ObjectHideFlags: 0
