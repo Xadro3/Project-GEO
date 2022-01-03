@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 102234337}
   - component: {fileID: 102234339}
   - component: {fileID: 102234340}
+  - component: {fileID: 102234341}
   m_Layer: 0
   m_Name: Suez
   m_TagString: Untagged
@@ -365,6 +366,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &102234341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102234336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &182072408
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +472,7 @@ GameObject:
   - component: {fileID: 189611247}
   - component: {fileID: 189611249}
   - component: {fileID: 189611250}
+  - component: {fileID: 189611251}
   m_Layer: 0
   m_Name: Mittelmeer
   m_TagString: Untagged
@@ -572,6 +586,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &189611251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189611246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &267602931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2109,7 @@ GameObject:
   - component: {fileID: 956813459}
   - component: {fileID: 956813461}
   - component: {fileID: 956813462}
+  - component: {fileID: 956813463}
   m_Layer: 0
   m_Name: Afrika
   m_TagString: Untagged
@@ -2196,6 +2223,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &956813463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956813458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1240205268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2247,7 @@ GameObject:
   - component: {fileID: 1240205269}
   - component: {fileID: 1240205271}
   - component: {fileID: 1240205272}
+  - component: {fileID: 1240205273}
   m_Layer: 0
   m_Name: arabisch
   m_TagString: Untagged
@@ -2321,6 +2361,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1240205273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240205268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1268541961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,6 +2818,7 @@ GameObject:
   - component: {fileID: 1599242465}
   - component: {fileID: 1599242467}
   - component: {fileID: 1599242468}
+  - component: {fileID: 1599242469}
   m_Layer: 0
   m_Name: rotes
   m_TagString: Untagged
@@ -2879,6 +2932,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1599242469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599242464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1618864770
 GameObject:
   m_ObjectHideFlags: 0

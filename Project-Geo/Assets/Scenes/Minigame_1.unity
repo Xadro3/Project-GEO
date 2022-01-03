@@ -2028,6 +2028,7 @@ GameObject:
   - component: {fileID: 472057948}
   - component: {fileID: 472057950}
   - component: {fileID: 472057951}
+  - component: {fileID: 472057952}
   m_Layer: 0
   m_Name: n buchstabe
   m_TagString: Untagged
@@ -2141,6 +2142,18 @@ MonoBehaviour:
   dragging: 0
   solved: 0
   target: {fileID: 1247596063}
+--- !u!114 &472057952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472057947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,6 +2358,7 @@ GameObject:
   - component: {fileID: 639551901}
   - component: {fileID: 639551903}
   - component: {fileID: 639551904}
+  - component: {fileID: 639551905}
   m_Layer: 0
   m_Name: s buctshabe
   m_TagString: Untagged
@@ -2458,6 +2472,18 @@ MonoBehaviour:
   dragging: 0
   solved: 0
   target: {fileID: 279118746}
+--- !u!114 &639551905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639551900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &701040167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,6 +3381,7 @@ GameObject:
   - component: {fileID: 1472583103}
   - component: {fileID: 1472583105}
   - component: {fileID: 1472583106}
+  - component: {fileID: 1472583107}
   m_Layer: 0
   m_Name: w buchstabe
   m_TagString: Untagged
@@ -3468,6 +3495,18 @@ MonoBehaviour:
   dragging: 0
   solved: 0
   target: {fileID: 1399994236}
+--- !u!114 &1472583107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472583102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1616218951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,6 +4116,7 @@ GameObject:
   - component: {fileID: 1804202639}
   - component: {fileID: 1804202641}
   - component: {fileID: 1804202642}
+  - component: {fileID: 1804202643}
   m_Layer: 0
   m_Name: Zeiger
   m_TagString: Untagged
@@ -4190,6 +4230,18 @@ MonoBehaviour:
   dragging: 0
   solved: 0
   target: {fileID: 562244751}
+--- !u!114 &1804202643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804202638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1847191619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4235,6 +4287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1864428573}
   - component: {fileID: 1864428572}
+  - component: {fileID: 1864428574}
   m_Layer: 0
   m_Name: kompass solo
   m_TagString: Untagged
@@ -4307,6 +4360,18 @@ Transform:
   m_Father: {fileID: 57834113}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1864428574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864428571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922047229
 GameObject:
   m_ObjectHideFlags: 1
@@ -4424,6 +4489,7 @@ GameObject:
   - component: {fileID: 1955107658}
   - component: {fileID: 1955107660}
   - component: {fileID: 1955107661}
+  - component: {fileID: 1955107662}
   m_Layer: 0
   m_Name: o buchstabe
   m_TagString: Untagged
@@ -4537,6 +4603,18 @@ MonoBehaviour:
   dragging: 0
   solved: 0
   target: {fileID: 263400067}
+--- !u!114 &1955107662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955107657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0a48df12d625b488d39d86b787610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2009578640
 GameObject:
   m_ObjectHideFlags: 0
