@@ -446,7 +446,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138008431}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -455,7 +455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -99.70007, y: -50.200073}
+  m_AnchoredPosition: {x: -704, y: -549}
   m_SizeDelta: {x: 160, y: 68.4821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &261763463
@@ -2802,11 +2802,8 @@ GameObject:
   - component: {fileID: 909850171}
   - component: {fileID: 909850170}
   - component: {fileID: 909850169}
-  - component: {fileID: 909850168}
-  - component: {fileID: 909850167}
   - component: {fileID: 909850177}
   - component: {fileID: 909850176}
-  - component: {fileID: 909850175}
   - component: {fileID: 909850174}
   - component: {fileID: 909850155}
   m_Layer: 0
@@ -2901,7 +2898,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83
     y: 297
-    width: 78.8
+    width: 79.09089
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3001,22 +2998,19 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &909850155
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909850147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 26
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 10
-  durationOLD: 0
+  parentBlock: {fileID: 909850176}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 797809225}
 --- !u!114 &909850156
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3157,7 +3151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79
     y: 79
-    width: 77.2
+    width: 79.09089
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3191,11 +3185,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 20, y: 141}
+  scrollPos: {x: -58.86028, y: 320.47485}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3203,9 +3197,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 909850161}
-  selectedCommands:
-  - {fileID: 909850165}
+  - {fileID: 909850176}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3284,48 +3277,6 @@ MonoBehaviour:
   targetObject: {fileID: 1973681097}
   methodName: Activator
   delay: 0
---- !u!114 &909850167
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1814985583}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &909850168
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1814985583}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &909850169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3382,10 +3333,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Troloolololoolo
+  storyText: Schaue im Atlas, ins Inhaltsverzeichnis und suche nach einer Politischen
+    Deutschlandkarte
   description: 
-  character: {fileID: 2027088868}
-  portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3426,7 +3378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100
     y: 179
-    width: 76.4
+    width: 76.18179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3435,9 +3387,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 909850172}
   commandList:
-  - {fileID: 909850168}
   - {fileID: 909850171}
-  - {fileID: 909850167}
   suppressAllAutoSelections: 0
 --- !u!114 &909850174
 MonoBehaviour:
@@ -3460,21 +3410,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &909850175
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 909850176}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &909850176
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3491,16 +3426,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 278
     y: 180
-    width: 175.6
+    width: 176.54535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 24
   blockName: Hilfe Button Wartezeit
   description: 
-  eventHandler: {fileID: 909850175}
+  eventHandler: {fileID: 909850155}
   commandList:
-  - {fileID: 909850155}
   - {fileID: 909850174}
   suppressAllAutoSelections: 0
 --- !u!114 &909850177
