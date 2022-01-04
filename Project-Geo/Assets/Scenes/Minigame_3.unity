@@ -2275,8 +2275,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615319}
-  selectedCommands: []
+  - {fileID: 878615284}
+  selectedCommands:
+  - {fileID: 878615280}
   variables: []
   description: 
   stepPause: 0
@@ -2925,7 +2926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
+  itemId: 45
   indentLevel: 0
   storyText: Tatsache! Dort vorne hat ein waschechtes Piratenschiff angelegt!
   description: 
@@ -3257,7 +3258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 878615316}
   suppressBlockAutoSelect: 0
-  targetButton: {fileID: 0}
+  targetButton: {fileID: 690525096}
 --- !u!114 &878615316
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3272,14 +3273,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 90
-    y: 127
-    width: 111.714264
+    x: 80
+    y: 124.14285
+    width: 118.5714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 41
-  blockName: New Block
+  blockName: Hilfe Button
   description: 
   eventHandler: {fileID: 878615315}
   commandList:
@@ -3287,7 +3288,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &878615317
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3302,7 +3303,7 @@ MonoBehaviour:
   targetButton: {fileID: 2054552533}
 --- !u!114 &878615318
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3323,7 +3324,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &878615319
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3335,8 +3336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 68.727325
-    y: 189
+    x: 81.58448
+    y: 190.42857
     width: 180.28566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
