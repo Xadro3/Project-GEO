@@ -8,6 +8,7 @@ public class Puzzle_Solver : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    public Fungus.Flowchart myFlow;
     public List<GameObject> pieces;
     public List<GameObject> solved_pieces;
     public GameObject nextButton;
@@ -49,6 +50,7 @@ public class Puzzle_Solver : MonoBehaviour
             errors += 1;
             Debug.Log(errors);
             solved_pieces.Clear();
+            myFlow.ExecuteBlock("help");
         }
 
     }

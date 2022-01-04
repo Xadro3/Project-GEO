@@ -301,7 +301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &59180122
 Transform:
   m_ObjectHideFlags: 0
@@ -1040,6 +1040,8 @@ GameObject:
   - component: {fileID: 307465464}
   - component: {fileID: 307465463}
   - component: {fileID: 307465462}
+  - component: {fileID: 307465471}
+  - component: {fileID: 307465470}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1149,8 +1151,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 307465461}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -1520,6 +1521,60 @@ MonoBehaviour:
   eventHandler: {fileID: 307465468}
   commandList:
   - {fileID: 307465467}
+  suppressAllAutoSelections: 0
+--- !u!114 &307465470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307465448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  storyText: Nicht Korrekt
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &307465471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307465448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 185.6
+    y: 117
+    width: 74.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 79
+  blockName: help
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 307465470}
   suppressAllAutoSelections: 0
 --- !u!1 &424936932
 GameObject:
@@ -4499,6 +4554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42607affe4bf79408206a7c21539898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myFlow: {fileID: 307465453}
   pieces:
   - {fileID: 196412813}
   - {fileID: 509040611}

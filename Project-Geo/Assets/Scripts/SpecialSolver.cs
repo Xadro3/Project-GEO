@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class SpecialSolver : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    
+    public Fungus.Flowchart myFlow;
     public List<GameObject> pieces;
     public List<GameObject> solved_pieces;
     public GameObject nextButton;
@@ -47,6 +48,7 @@ public class SpecialSolver : MonoBehaviour
             errors += 1;
             Debug.Log(errors);
             solved_pieces.Clear();
+            myFlow.ExecuteBlock("help");
         }
 
     }

@@ -2255,6 +2255,8 @@ GameObject:
   - component: {fileID: 878615319}
   - component: {fileID: 878615318}
   - component: {fileID: 878615317}
+  - component: {fileID: 878615321}
+  - component: {fileID: 878615320}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2377,9 +2379,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615284}
-  selectedCommands:
-  - {fileID: 878615288}
+  - {fileID: 878615321}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3451,6 +3452,60 @@ MonoBehaviour:
   commandList:
   - {fileID: 878615318}
   suppressAllAutoSelections: 0
+--- !u!114 &878615320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878615269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: Nicht Korrekt
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &878615321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878615269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 80.35079
+    y: -29.857025
+    width: 73.99999
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 79
+  blockName: help
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 878615320}
+  suppressAllAutoSelections: 0
 --- !u!1 &932761082
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,6 +3737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3532dcb89e48f047ac0b78601bfac7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myFlow: {fileID: 878615274}
   pieces:
   - {fileID: 1516939151}
   - {fileID: 341025436}

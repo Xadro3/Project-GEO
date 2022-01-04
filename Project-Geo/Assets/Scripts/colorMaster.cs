@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class colorMaster : MonoBehaviour
 {
+    public Fungus.Flowchart myFlow;
     [SerializeField] List<GameObject> pieces;
     [SerializeField] List<Color32> targetColors;
     public GameObject nextButton;
@@ -43,6 +44,7 @@ public class colorMaster : MonoBehaviour
             if (!pieces[i].GetComponent<colorizable>().correctColor)
             {
                 errors += 1;
+                myFlow.ExecuteBlock("help");
                 break;
             }
             else
