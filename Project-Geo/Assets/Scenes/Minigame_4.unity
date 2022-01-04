@@ -2870,6 +2870,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083806118}
   m_CullTransparentMesh: 1
+--- !u!1 &1088820784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088820786}
+  - component: {fileID: 1088820785}
+  m_Layer: 0
+  m_Name: Dr. Fogg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1088820785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088820784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Dr. Fogg
+  nameColor: {r: 0, g: 1, b: 0.038595438, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1088820786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088820784}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113850495
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,6 +4406,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1634656739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634656741}
+  - component: {fileID: 1634656740}
+  m_Layer: 0
+  m_Name: Ning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1634656740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634656739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Ning
+  nameColor: {r: 1, g: 0.50377357, b: 0.9670598, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1634656741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634656739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1639628304
 GameObject:
   m_ObjectHideFlags: 0
@@ -4471,7 +4572,7 @@ MonoBehaviour:
     gesehen! Wahrlich bemerkenswert wie viele Menschen an einem Fleckchen in der
     Welt zusammentreffen.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1088820785}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4545,7 +4646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 62
+    x: 63.265823
     y: 131.9011
     width: 77.34177
     height: 40
@@ -4591,10 +4692,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1657309751}
-  selectedCommands:
-  - {fileID: 1657309753}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4624,8 +4723,8 @@ MonoBehaviour:
     Ning, die Leiterin and der Station der Gr\xF6\xDFe! Als einer der zurzeit f\xFChrenden
     Teilnehmer des Rennens erwarte ich viel von dir. \r"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1634656740}
+  portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4714,8 +4813,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Wir z\xE4hlen auf deine Unterst\xFCtzung."
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1634656740}
+  portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4742,8 +4841,8 @@ MonoBehaviour:
   storyText: "Herr Rockefeller hat vor Kurzem das Weltmuseum in Hongkong er\xF6ffnet.
     Es scheint allerdings gro\xDFe Probleme bei der Nutzung des Ma\xDFstabs zu geben. "
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1634656740}
+  portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4791,8 +4890,8 @@ MonoBehaviour:
   storyText: "Sehr beeindruckend ja, ja! Das Rockefeller Weltmuseum ist dankbar f\xFCr
     deine Hilfe und gratuliert zum Bestehen der Station der Gr\xF6\xDFe!"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1634656740}
+  portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4907,7 +5006,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &1657309754
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4922,7 +5021,7 @@ MonoBehaviour:
   targetButton: {fileID: 1113850497}
 --- !u!114 &1657309755
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4949,7 +5048,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1657309756
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
