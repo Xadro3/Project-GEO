@@ -89,6 +89,8 @@ public class colorMaster : MonoBehaviour
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(3);
         }
     }
+
+    
     IEnumerator move()
     {
         while (resultScreen.transform.position != targetPosition)
