@@ -2228,11 +2228,9 @@ GameObject:
   - component: {fileID: 878615308}
   - component: {fileID: 878615307}
   - component: {fileID: 878615306}
-  - component: {fileID: 878615305}
   - component: {fileID: 878615304}
   - component: {fileID: 878615303}
   - component: {fileID: 878615302}
-  - component: {fileID: 878615301}
   - component: {fileID: 878615300}
   - component: {fileID: 878615299}
   - component: {fileID: 878615298}
@@ -2367,11 +2365,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -54.8572, y: 349.85687}
+  scrollPos: {x: -80.98239, y: 325.72778}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2379,8 +2377,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615321}
-  selectedCommands: []
+  - {fileID: 878615284}
+  selectedCommands:
+  - {fileID: 878615271}
   variables: []
   description: 
   stepPause: 0
@@ -2490,11 +2489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'WAHAHA! Ganz Recht!
-
-    Willkommen zur Station des Wassers Dr. Fogg!
-
-'
+  storyText: "Ganz Recht!\n Willkommen zur Station des Wassers Dr. Fogg!\n"
   description: 
   character: {fileID: 485812076}
   portrait: {fileID: 21300000, guid: d514d6532fac66c489c0786777d3e8b2, type: 3}
@@ -2601,7 +2596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 57
-    width: 78.57142
+    width: 77.39725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2623,12 +2618,10 @@ MonoBehaviour:
   - {fileID: 878615309}
   - {fileID: 878615307}
   - {fileID: 878615306}
-  - {fileID: 878615305}
   - {fileID: 878615308}
   - {fileID: 878615304}
   - {fileID: 878615303}
   - {fileID: 878615276}
-  - {fileID: 878615301}
   - {fileID: 878615302}
   - {fileID: 878615275}
   - {fileID: 878615273}
@@ -3017,33 +3010,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &878615301
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878615269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 45
-  indentLevel: 0
-  storyText: Tatsache! Dort vorne hat ein waschechtes Piratenschiff angelegt!
-  description: 
-  character: {fileID: 1744979706}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &878615302
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3075,7 +3041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Piraten? So etwas f\xE4hrt immer noch auf See umher?"
+  storyText: Ich glaube ich seh nicht recht! Da vorne hat ein waschechtes Piratenschiff
+    angelegt!
   description: 
   character: {fileID: 1744979706}
   portrait: {fileID: 0}
@@ -3105,34 +3072,6 @@ MonoBehaviour:
   targetObject: {fileID: 1940843597}
   methodName: Activator
   delay: 0
---- !u!114 &878615305
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878615269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  storyText: 'Vor kurzem scheinen allerdings Piraten angelegt zu haben. Gibt gut
-    auf dich Acht! WAHAHA! '
-  description: 
-  character: {fileID: 485812076}
-  portrait: {fileID: 21300000, guid: d514d6532fac66c489c0786777d3e8b2, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &878615306
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3225,7 +3164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: 'Ich bin Marik, der Leiter dieser Station! WAHAHA! '
+  storyText: 'Ich bin Marik, der Leiter dieser Station! '
   description: 
   character: {fileID: 485812076}
   portrait: {fileID: 21300000, guid: d514d6532fac66c489c0786777d3e8b2, type: 3}
@@ -3378,7 +3317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80
     y: 124.14285
-    width: 118.5714
+    width: 115.7534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3441,7 +3380,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.58448
     y: 190.42857
-    width: 180.28566
+    width: 174.93146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3495,7 +3434,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.35079
     y: -29.857025
-    width: 73.99999
+    width: 73.01369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
