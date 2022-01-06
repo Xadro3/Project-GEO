@@ -4610,7 +4610,6 @@ GameObject:
   - component: {fileID: 1657309749}
   - component: {fileID: 1657309748}
   - component: {fileID: 1657309747}
-  - component: {fileID: 1657309757}
   - component: {fileID: 1657309756}
   - component: {fileID: 1657309755}
   - component: {fileID: 1657309754}
@@ -4730,7 +4729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.265823
     y: 131.9011
-    width: 77.39725
+    width: 78.57142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4762,11 +4761,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -37.886246, y: 253.73743}
+  scrollPos: {x: -28.023235, y: 279.4517}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.73000026
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5035,7 +5034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.179314
     y: 196.7662
-    width: 78.35442
+    width: 77.42856
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5051,7 +5050,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1657309753
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5126,7 +5125,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62.634865
     y: 266.92813
-    width: 76.30136
+    width: 77.42856
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5742,7 +5741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1897404225
 Transform:
   m_ObjectHideFlags: 0

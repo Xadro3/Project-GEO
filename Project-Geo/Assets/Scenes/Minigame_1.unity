@@ -490,9 +490,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662711}
+  - {fileID: 41662702}
   selectedCommands:
-  - {fileID: 41662744}
+  - {fileID: 41662715}
   variables: []
   description: 
   stepPause: 0
@@ -815,9 +815,9 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 67964649}
-  portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: 2a8bef47d4dd42d409fc7231c10a10c3, type: 3}
+  character: {fileID: 547267794}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
