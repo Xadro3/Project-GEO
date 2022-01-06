@@ -4730,7 +4730,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.265823
     y: 131.9011
-    width: 77.34177
+    width: 77.39725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4747,7 +4747,6 @@ MonoBehaviour:
   - {fileID: 1657309746}
   - {fileID: 1657309745}
   - {fileID: 1657309744}
-  - {fileID: 1657309757}
   - {fileID: 1657309742}
   suppressAllAutoSelections: 0
 --- !u!114 &1657309740
@@ -4763,11 +4762,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -49.78856, y: 215.55539}
+  scrollPos: {x: -37.886246, y: 253.73743}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7900002
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4776,8 +4775,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1657309751}
-  selectedCommands:
-  - {fileID: 1657309753}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5128,7 +5126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62.634865
     y: 266.92813
-    width: 76.32911
+    width: 76.30136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5139,35 +5137,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1657309755}
   suppressAllAutoSelections: 0
---- !u!114 &1657309757
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657309733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  storyText: 'Platzhalter
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1 &1741688988
 GameObject:
   m_ObjectHideFlags: 0

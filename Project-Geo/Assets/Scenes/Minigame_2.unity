@@ -2788,7 +2788,6 @@ GameObject:
   - component: {fileID: 909850158}
   - component: {fileID: 909850157}
   - component: {fileID: 909850156}
-  - component: {fileID: 909850154}
   - component: {fileID: 909850153}
   - component: {fileID: 909850152}
   - component: {fileID: 909850151}
@@ -2972,33 +2971,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &909850154
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  storyText: 'Nun denn Minjung!   '
-  description: 
-  character: {fileID: 2027088868}
-  portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &909850155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3170,7 +3142,6 @@ MonoBehaviour:
   - {fileID: 909850170}
   - {fileID: 909850157}
   - {fileID: 909850156}
-  - {fileID: 909850154}
   - {fileID: 909850153}
   - {fileID: 909850152}
   - {fileID: 909850169}
@@ -3202,7 +3173,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 909850161}
   selectedCommands:
-  - {fileID: 909850166}
+  - {fileID: 909850153}
   variables: []
   description: 
   stepPause: 0
