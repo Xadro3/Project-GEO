@@ -385,7 +385,7 @@ MonoBehaviour:
   storyText: Hallo, ich bin Kate.
   description: 
   character: {fileID: 463365122}
-  portrait: {fileID: 21300000, guid: ce24d3f1b6e167349a633d5b3d9b685f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -490,9 +490,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662702}
+  - {fileID: 41662711}
   selectedCommands:
-  - {fileID: 41662705}
+  - {fileID: 41662744}
   variables: []
   description: 
   stepPause: 0

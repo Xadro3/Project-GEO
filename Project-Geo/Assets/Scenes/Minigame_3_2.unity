@@ -222,7 +222,7 @@ MonoBehaviour:
   storyText: Aye Kamerad! Wir haben hier diese Wegbeschreibung aber diese ist auch
     bei dem Sturm Kaputt gegangen
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -291,7 +291,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Siehe im Atlas auf Seite 147 nach
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -346,9 +346,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1
+    x: -2
     y: 123
-    width: 77.2
+    width: 78.42104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -374,19 +374,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 36, y: 66}
+  scrollPos: {x: 74.9135, y: 209.0693}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401.8
-  zoom: 1
+  zoom: 0.76000017
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 8646161}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -437,7 +436,7 @@ MonoBehaviour:
   storyText: "WAHAHA! Mutig von dir dich den Piraten zu stellen!\r\nGratulation zum
     Bestehen der Station des Wassers!\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -528,7 +527,7 @@ MonoBehaviour:
   storyText: "Aye Kamerad! Ich verstehe\u2026dann nimm zumindest diesen Beutel als
     Zeichen meiner Dankbarkeit an."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -598,7 +597,7 @@ MonoBehaviour:
   storyText: "Aye Kamerad! So einen Klugschw\xE4tzer wie dich k\xF6nnten wir gut
     an Bord gebrauchen. Schlie\xDF dich doch dem Piratenleben an!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -698,7 +697,7 @@ MonoBehaviour:
   storyText: "Entschuldigt, aber ich f\xFCrchte das Leben auf See ist nicht f\xFCr
     mich geeignet."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -742,7 +741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5
     y: 185
-    width: 78.8
+    width: 79.47368
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -783,7 +782,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4
     y: 242
-    width: 117.2
+    width: 119.47367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -846,7 +845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2.8571777
     y: 297
-    width: 178.8
+    width: 182.63155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -873,7 +872,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Nicht Korrekt
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1939252620}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -900,7 +899,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 6.0000076
     y: 46
-    width: 74.8
+    width: 75.26315
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4676,6 +4675,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1939252619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939252621}
+  - component: {fileID: 1939252620}
+  m_Layer: 0
+  m_Name: "Captain \xDCbermorgen"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1939252620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939252619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: "Captain \xDCbermorgen"
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 5db968d40faa551459e59d19f8c66414, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1939252621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939252619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977850087
 GameObject:
   m_ObjectHideFlags: 0
