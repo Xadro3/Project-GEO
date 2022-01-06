@@ -45,11 +45,13 @@ public class colorMaster : MonoBehaviour
             {
                 errors += 1;
                 myFlow.ExecuteBlock("help");
+                Debug.Log(i + "teil" + pieces[i].GetComponent<colorizable>().correctColor);
                 break;
             }
             else
             {
                 end();
+                break;
             }
         }
        

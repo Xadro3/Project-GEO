@@ -255,7 +255,6 @@ GameObject:
   - component: {fileID: 41662738}
   - component: {fileID: 41662737}
   - component: {fileID: 41662739}
-  - component: {fileID: 41662742}
   - component: {fileID: 41662743}
   - component: {fileID: 41662741}
   - component: {fileID: 41662740}
@@ -307,7 +306,7 @@ MonoBehaviour:
   storyText: 'Vor dir liegt ein Kompass, der in seine Einzelteile zerlegt wurde. '
   description: 
   character: {fileID: 463365122}
-  portrait: {fileID: 21300000, guid: ce24d3f1b6e167349a633d5b3d9b685f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -455,7 +454,6 @@ MonoBehaviour:
   - {fileID: 41662719}
   - {fileID: 41662718}
   - {fileID: 41662717}
-  - {fileID: 41662742}
   - {fileID: 41662716}
   - {fileID: 41662715}
   - {fileID: 41662714}
@@ -496,9 +494,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662711}
+  - {fileID: 41662702}
   selectedCommands:
-  - {fileID: 41662739}
+  - {fileID: 41662705}
   variables: []
   description: 
   stepPause: 0
@@ -543,7 +541,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e9bc537c6063c6644babccfe56fd9c98, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -797,7 +795,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: aa9d7fa9bccd5c449b7cccf522cd64e4, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -825,7 +823,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 2a8bef47d4dd42d409fc7231c10a10c3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -854,7 +852,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f97ba9de28782c04889d9954e8b2bc89, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -881,7 +879,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: bf78591e4c2e2144aaccbffff325a341, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -909,7 +907,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: bcdd2a20babf17e4ca2988dcb8494d74, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -936,7 +934,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 36858edeb6f63f64098b2ecb1eba0611, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1434,33 +1432,6 @@ MonoBehaviour:
   - {fileID: 41662759}
   - {fileID: 41662733}
   suppressAllAutoSelections: 0
---- !u!114 &41662742
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41662696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  storyText: Nachdems Elon Musk noch nicht gibt, hahaha!
-  description: 
-  character: {fileID: 67964649}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &41662743
 MonoBehaviour:
   m_ObjectHideFlags: 2

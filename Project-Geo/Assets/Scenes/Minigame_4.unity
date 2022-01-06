@@ -546,7 +546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -155, y: -64}
+  m_AnchoredPosition: {x: 2.24, y: -245.19}
   m_SizeDelta: {x: 423.02, y: 131.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &142642297
@@ -4215,7 +4215,7 @@ MonoBehaviour:
   - {fileID: 1070420026}
   - {fileID: 194417617}
   nextButton: {fileID: 1978607457}
-  endButton: {fileID: 1885864650}
+  endButton: {fileID: 135069606}
   resultScreen: {fileID: 1357235397}
   bronze: {fileID: 1812016539}
   silver: {fileID: 1596527029}
@@ -4528,11 +4528,10 @@ GameObject:
   - component: {fileID: 1657309748}
   - component: {fileID: 1657309747}
   - component: {fileID: 1657309757}
-  - component: {fileID: 1657309752}
-  - component: {fileID: 1657309753}
   - component: {fileID: 1657309756}
   - component: {fileID: 1657309755}
   - component: {fileID: 1657309754}
+  - component: {fileID: 1657309753}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4954,7 +4953,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63.179314
-    y: 198.03203
+    y: 196.7662
     width: 78.35442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4967,12 +4966,11 @@ MonoBehaviour:
   - {fileID: 1657309749}
   - {fileID: 1657309748}
   - {fileID: 1657309747}
-  - {fileID: 1657309752}
   - {fileID: 1657309753}
   suppressAllAutoSelections: 0
---- !u!114 &1657309752
+--- !u!114 &1657309753
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4982,30 +4980,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 19
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Worldmap
+    stringVal: Worldmap_M4
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &1657309753
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657309733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  targetObject: {fileID: 1538858150}
-  methodName: nextScene
-  delay: 0
 --- !u!114 &1657309754
 MonoBehaviour:
   m_ObjectHideFlags: 2

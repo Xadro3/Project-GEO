@@ -104,6 +104,7 @@ public class Quizmaster : MonoBehaviour
             Debug.Log(timeElapsed);
             endButton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
         }
         if (failures ==1 && Time.timeSinceLevelLoadAsDouble < 60)
         {
@@ -114,6 +115,7 @@ public class Quizmaster : MonoBehaviour
             endButton.gameObject.SetActive(true);
             Debug.Log(timeElapsed);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
         }
         if (failures > 1 || Time.timeSinceLevelLoadAsDouble > 60)
         {
@@ -124,6 +126,7 @@ public class Quizmaster : MonoBehaviour
             endButton.gameObject.SetActive(true);
             Debug.Log(timeElapsed);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(3);
+            dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
 
         }
     }
