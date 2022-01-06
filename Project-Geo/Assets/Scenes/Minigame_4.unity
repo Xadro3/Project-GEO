@@ -151,7 +151,7 @@ RectTransform:
   m_GameObject: {fileID: 20383146}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 265639618}
   m_Father: {fileID: 1741688989}
@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242.99, y: -50.055}
-  m_SizeDelta: {x: 79.58, y: 99.96}
+  m_AnchoredPosition: {x: 146.82, y: -28.3}
+  m_SizeDelta: {x: 96.19, y: 21.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20383148
 MonoBehaviour:
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 156213024b7ce9846a3dcaaa4236ac7e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 182794cd6e31c5c49a67f8fc81a22703, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -266,7 +266,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &67951000
 GameObject:
@@ -372,8 +372,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71439243}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 271.98505, y: 69.96801, z: -4251.9683}
-  m_LocalScale: {x: 12.265641, y: 11.990851, z: 47.24409}
+  m_LocalPosition: {x: 340.64, y: 85.84, z: -4251.9683}
+  m_LocalScale: {x: 19.649557, y: 15.150441, z: 47.24409}
   m_Children: []
   m_Father: {fileID: 1883699650}
   m_RootOrder: 0
@@ -782,7 +782,7 @@ RectTransform:
   m_GameObject: {fileID: 194417613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 627153497}
   m_Father: {fileID: 1741688989}
@@ -790,8 +790,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 127.11001, y: 96.669975}
-  m_SizeDelta: {x: 118.28, y: 133.05}
+  m_AnchoredPosition: {x: 148.3, y: -75.8}
+  m_SizeDelta: {x: 94.43, y: 20.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194417615
 MonoBehaviour:
@@ -813,7 +813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 156213024b7ce9846a3dcaaa4236ac7e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 182794cd6e31c5c49a67f8fc81a22703, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -897,7 +897,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &256118180
 GameObject:
@@ -1078,8 +1078,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000095367, y: 24}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.45, y: -11.72}
+  m_SizeDelta: {x: 45.49, y: 12.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265639619
 MonoBehaviour:
@@ -1114,7 +1114,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 600 m
+  m_Text: 1:10 000
 --- !u!222 &265639620
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1271,6 +1271,89 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &544042279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 544042280}
+  - component: {fileID: 544042282}
+  - component: {fileID: 544042281}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &544042280
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544042279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1883699650}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 276.85, y: 20.14}
+  m_SizeDelta: {x: 214.5, y: 60.52}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &544042281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544042279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a1b55e86b67ca499b97ef741770a6e96, type: 2}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Die Chinesische Mauer wird auch die 10.000Li Mauer genannt und ist 6260Km
+    lang, das sind ganze 6.260.000m!
+
+
+    Ein Li hat 500m!'
+--- !u!222 &544042282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544042279}
+  m_CullTransparentMesh: 1
 --- !u!1 &575367082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,8 +1907,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20.86, y: 39}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 2.11, y: -14.35}
+  m_SizeDelta: {x: 71.21, y: 14.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627153498
 MonoBehaviour:
@@ -1860,7 +1943,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1100 m
+  m_Text: 1:10 000 000
 --- !u!222 &627153499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2633,7 +2716,7 @@ RectTransform:
   m_GameObject: {fileID: 1070420022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1160486478}
   m_Father: {fileID: 1741688989}
@@ -2641,8 +2724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242.99, y: 50}
-  m_SizeDelta: {x: 94.94, y: 124.93}
+  m_AnchoredPosition: {x: 149.02, y: 22.06}
+  m_SizeDelta: {x: 94.94, y: 20.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070420024
 MonoBehaviour:
@@ -2664,7 +2747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 156213024b7ce9846a3dcaaa4236ac7e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 182794cd6e31c5c49a67f8fc81a22703, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3074,8 +3157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 28}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -8.69, y: -10.06}
+  m_SizeDelta: {x: 37.23, y: 11.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160486479
 MonoBehaviour:
@@ -3110,7 +3193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 800 m
+  m_Text: '1: 7826'
 --- !u!222 &1160486480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5490,13 +5573,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 71439244}
+  - {fileID: 544042280}
   m_Father: {fileID: 858847041}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -472.3, y: -86.031}
-  m_SizeDelta: {x: 111.62, y: 81.38}
+  m_AnchoredPosition: {x: -505.11, y: -100.74}
+  m_SizeDelta: {x: 127.02, y: 87.4}
   m_Pivot: {x: -2.1296458, y: -1.4444568}
 --- !u!114 &1883699651
 MonoBehaviour:
@@ -5531,9 +5615,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Das Museum will die ca. 6.600km lange Chinesische Mauer als begehbare
-    Attraktion um das Museum bauen. Finde anhand der Karte heraus, wie lang das Modell
-    werden sollte und welcher Ma\xDFstab daf\xFCr genutzt werden soll?"
+  m_Text: "Das Muesum m\xF6chte die Chinesische Mauer gerne als begehbares Ausstellungsst\xFCck
+    aufbauen, in welchem Ma\xDFstab muss diese Gebaut werden um das Museum zu umschlie\xDFen.
+    (ca.626m)"
 --- !u!222 &1883699652
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5689,7 +5773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1897404225
 Transform:
   m_ObjectHideFlags: 0
