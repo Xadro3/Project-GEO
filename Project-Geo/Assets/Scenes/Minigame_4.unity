@@ -4650,8 +4650,8 @@ MonoBehaviour:
   itemId: 3
   indentLevel: 0
   storyText: Erstaunlich! So eine lebendige Stadt wie Hongkong habe ich noch nie
-    gesehen! Wahrlich bemerkenswert wie viele Menschen an einem Fleckchen in der
-    Welt zusammentreffen.
+    gesehen! Wahrlich bemerkenswert wie viele Menschen an einem Fleckchen der Erde
+    zusammentreffen.
   description: 
   character: {fileID: 1088820785}
   portrait: {fileID: 0}
@@ -4729,7 +4729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.265823
     y: 131.9011
-    width: 78.57142
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4761,19 +4761,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -28.023235, y: 279.4517}
+  scrollPos: {x: -12.065734, y: 161.7187}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1657309751}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -4801,7 +4800,7 @@ MonoBehaviour:
   itemId: 6
   indentLevel: 0
   storyText: "Ja, ja, wahrlich bemerkenswert. \r\nWillkommen in Hongkong! Ich bin
-    Ning, die Leiterin and der Station der Gr\xF6\xDFe! Als einer der zurzeit f\xFChrenden
+    Ning, die Leiterin der Station der Gr\xF6\xDFe! Als einer der zurzeit f\xFChrenden
     Teilnehmer des Rennens erwarte ich viel von dir. \r"
   description: 
   character: {fileID: 1634656740}
@@ -4919,7 +4918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Herr Rockefeller hat vor Kurzem das Weltmuseum in Hongkong er\xF6ffnet.
+  storyText: "Herr Rockefeller hat vor kurzem das Weltmuseum in Hongkong er\xF6ffnet.
     Es scheint allerdings gro\xDFe Probleme bei der Nutzung des Ma\xDFstabs zu geben. "
   description: 
   character: {fileID: 1634656740}
@@ -4969,7 +4968,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   storyText: "Sehr beeindruckend ja, ja! Das Rockefeller Weltmuseum ist dankbar f\xFCr
-    deine Hilfe und gratuliert zum Bestehen der Station der Gr\xF6\xDFe!"
+    deine Hilfe und gratuliert dir zum Bestehen der Station der Gr\xF6\xDFe!"
   description: 
   character: {fileID: 1634656740}
   portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
@@ -5034,7 +5033,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.179314
     y: 196.7662
-    width: 77.42856
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5096,7 +5095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Es geht um die Gr\xF6\xDFe mein Padawan"
+  storyText: "1m sind 100cm\n 1cm sind 10mm"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5125,7 +5124,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62.634865
     y: 266.92813
-    width: 77.42856
+    width: 76.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

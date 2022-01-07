@@ -845,7 +845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "40\xB0 N, 75\xB0 W "
+  m_Text: "40\xB0 Nord, 75\xB0 West"
 --- !u!222 &425344524
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -890,8 +890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84, y: -18}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -78.41, y: -18}
+  m_SizeDelta: {x: 171.19, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508324484
 MonoBehaviour:
@@ -1317,7 +1317,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 889934292}
   selectedCommands: []
   variables: []
   description: 
@@ -1995,8 +1996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164, y: 111}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -152.81, y: 111}
+  m_SizeDelta: {x: 182.37, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1306187770
 GameObject:
@@ -2505,7 +2506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "30\xB0 S, 20\xB0 O "
+  m_Text: "30\xB0 S\xFCd, 20\xB0 Ost"
 --- !u!222 &1931383684
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2584,7 +2585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "20\xB0 S, 40\xB0 W"
+  m_Text: "20\xB0 S\xFCd, 40\xB0 West"
 --- !u!222 &2145417656
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1232,7 +1232,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.58764
     y: 98.87629
-    width: 77.21649
+    width: 77.34177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1272,11 +1272,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 7.2989683, y: 9.0824585}
+  scrollPos: {x: 54.68455, y: 106.15422}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.97
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1284,8 +1284,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 307465452}
-  selectedCommands: []
+  - {fileID: 307465469}
+  selectedCommands:
+  - {fileID: 307465467}
   variables: []
   description: 
   stepPause: 0
@@ -1350,8 +1351,8 @@ MonoBehaviour:
   itemId: 4
   indentLevel: 0
   storyText: "Hihihi, wie ich sehe, bist du motiviert den Geo Cup zu gewinnen. Ich
-    bin Saki, Leiterin von Tokyos Station der Vollendung! Tats\xE4chlich bist du
-    sogar einer der Ersten, welche an dieser Station ankamen."
+    bin Saki, Leiterin von Tokyos Station der Schichten! Tats\xE4chlich bist du sogar
+    einer der Ersten, welche an dieser Station ankamen."
   description: 
   character: {fileID: 1863975100}
   portrait: {fileID: 0}
@@ -1512,7 +1513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58.525784
     y: 175.12372
-    width: 76.391754
+    width: 78.35442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1539,7 +1540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Achte auf die H\xF6he der Legende zur H\xF6he des eigentlichen Bergs\n"
+  storyText: "Achte auf die H\xF6he der Legende zur H\xF6he des eigentlichen Bergs.\t\t\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1583,7 +1584,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.68043
     y: 235.43301
-    width: 115.97938
+    width: 116.83543
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1637,7 +1638,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.641113
     y: 333.49512
-    width: 73.09278
+    width: 74.30379
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

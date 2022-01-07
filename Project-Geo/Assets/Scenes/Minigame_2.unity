@@ -2897,7 +2897,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.73172
     y: 253.09753
-    width: 77.31707
+    width: 76.30136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2982,8 +2982,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'Willkommen bei der Station der Einigung Minjung. Ich nehme an du bist
-    Teilnehmer des Rennens um die Welt? '
+  storyText: 'Willkommen bei der Station der Orientierung Minjung. Ich nehme an du
+    bist Teilnehmer des Rennens um die Welt? '
   description: 
   character: {fileID: 2027088868}
   portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
@@ -3108,7 +3108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 99.73172
     y: 105.829285
-    width: 76.34146
+    width: 77.39725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3141,19 +3141,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -55.052723, y: 166.56671}
+  scrollPos: {x: -9.408533, y: 224.74771}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 0.7300003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 909850173}
+  selectedCommands:
+  - {fileID: 909850171}
   variables: []
   description: 
   stepPause: 0
@@ -3275,7 +3277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 99.09833
     y: 380.65555
-    width: 73.41463
+    width: 73.01369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3342,8 +3344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Schaue im Atlas, ins Inhaltsverzeichnis und suche nach einer Politischen
-    Deutschlandkarte
+  storyText: Schaue im Atlas in das Inhaltsverzeichnis und suche nach einer politischen
+    Deutschlandkarte.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3387,7 +3389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100
     y: 179
-    width: 75.365845
+    width: 76.30136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
