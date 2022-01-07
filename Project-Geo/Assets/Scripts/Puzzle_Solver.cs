@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Puzzle_Solver : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    public double minTime;
     public Fungus.Flowchart myFlow;
     public List<GameObject> pieces;
     public List<GameObject> solved_pieces;
@@ -56,7 +56,7 @@ public class Puzzle_Solver : MonoBehaviour
     }
     public void end()
     {
-        if(errors == 0 && Time.timeSinceLevelLoadAsDouble < 60)
+        if(errors == 0 && Time.timeSinceLevelLoadAsDouble < minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
@@ -67,7 +67,7 @@ public class Puzzle_Solver : MonoBehaviour
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
         }
-        if (errors == 1 && Time.timeSinceLevelLoadAsDouble < 60)
+        if (errors == 1 && Time.timeSinceLevelLoadAsDouble < minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
@@ -78,7 +78,7 @@ public class Puzzle_Solver : MonoBehaviour
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
         }
-        if (errors > 1 || Time.timeSinceLevelLoadAsDouble > 60)
+        if (errors > 1 || Time.timeSinceLevelLoadAsDouble > minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;

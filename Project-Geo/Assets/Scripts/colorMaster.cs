@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class colorMaster : MonoBehaviour
 {
+    public double minTime;
     public Fungus.Flowchart myFlow;
     [SerializeField] List<GameObject> pieces;
     [SerializeField] List<Color32> targetColors;
@@ -59,7 +60,7 @@ public class colorMaster : MonoBehaviour
     }
     public void end()
     {
-        if (errors == 0 && Time.timeSinceLevelLoadAsDouble < 60)
+        if (errors == 0 && Time.timeSinceLevelLoadAsDouble < minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
@@ -70,7 +71,7 @@ public class colorMaster : MonoBehaviour
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
         }
-        if (errors == 1 && Time.timeSinceLevelLoadAsDouble < 60)
+        if (errors == 1 && Time.timeSinceLevelLoadAsDouble < minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
@@ -81,7 +82,7 @@ public class colorMaster : MonoBehaviour
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
         }
-        if (errors > 1 || Time.timeSinceLevelLoadAsDouble > 60)
+        if (errors > 1 || Time.timeSinceLevelLoadAsDouble > minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
