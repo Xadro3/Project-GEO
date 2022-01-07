@@ -5051,6 +5051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42607affe4bf79408206a7c21539898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minTime: 0
   myFlow: {fileID: 307465453}
   pieces:
   - {fileID: 664912723}
