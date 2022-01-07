@@ -277,7 +277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 168, y: 98}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546499525
@@ -388,12 +388,10 @@ GameObject:
   - component: {fileID: 592660932}
   - component: {fileID: 592660931}
   - component: {fileID: 592660930}
-  - component: {fileID: 592660929}
   - component: {fileID: 592660928}
   - component: {fileID: 592660927}
   - component: {fileID: 592660926}
   - component: {fileID: 592660925}
-  - component: {fileID: 592660924}
   - component: {fileID: 592660923}
   - component: {fileID: 592660922}
   - component: {fileID: 592660921}
@@ -484,7 +482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 448.5409
     y: 246.6557
-    width: 139.18028
+    width: 139.18034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -597,7 +595,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.83582
     y: 178.68848
-    width: 76.22949
+    width: 76.229515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -623,11 +621,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -26.928415, y: 206.82326}
+  scrollPos: {x: -428.41568, y: 105.55585}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6100003
+  zoom: 0.6099999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -736,9 +734,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 500.69867
-    y: 443.9961
-    width: 74.91802
+    x: 495.78064
+    y: 419.40594
+    width: 74.91804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -749,27 +747,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 592660921}
   suppressAllAutoSelections: 0
---- !u!114 &592660924
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592660908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 18
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2108611597}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &592660925
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -855,27 +832,6 @@ MonoBehaviour:
   parentBlock: {fileID: 592660934}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 2102467288}
---- !u!114 &592660929
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592660908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2108611597}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &592660930
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -975,9 +931,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 474.46918
-    y: 378.42236
-    width: 147.04913
+    x: 448.2397
+    y: 347.27484
+    width: 147.0492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -989,7 +945,6 @@ MonoBehaviour:
   - {fileID: 592660927}
   - {fileID: 592660926}
   - {fileID: 592660925}
-  - {fileID: 592660924}
   suppressAllAutoSelections: 0
 --- !u!114 &592660935
 MonoBehaviour:
@@ -1005,9 +960,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 459.71506
-    y: 314.48798
-    width: 147.04913
+    x: 448.23965
+    y: 296.4552
+    width: 147.0492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1019,7 +974,6 @@ MonoBehaviour:
   - {fileID: 592660932}
   - {fileID: 592660931}
   - {fileID: 592660930}
-  - {fileID: 592660929}
   suppressAllAutoSelections: 0
 --- !u!1 &710208151
 GameObject:
@@ -1139,7 +1093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 0}
+  m_AnchoredPosition: {x: 322, y: 108}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &838242511
@@ -1534,6 +1488,7 @@ RectTransform:
   - {fileID: 710208155}
   - {fileID: 546499524}
   - {fileID: 2102467287}
+  - {fileID: 2108611601}
   m_Father: {fileID: 470663630}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1752,7 +1707,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Seoul
+  m_Text: Kashi
 --- !u!222 &1201585905
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2431,13 +2386,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1181016925}
-  - {fileID: 2108611601}
   m_Father: {fileID: 987446368}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: 0}
+  m_AnchoredPosition: {x: 273, y: 30}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2102467288
@@ -2540,7 +2494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2108611598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,11 +2588,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0001999, y: 1.0001999, z: 1.0001999}
   m_Children: []
-  m_Father: {fileID: 2102467287}
-  m_RootOrder: 1
+  m_Father: {fileID: 987446368}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -202, y: 204.86002}
+  m_AnchoredPosition: {x: 0, y: 204.86002}
   m_SizeDelta: {x: 160, y: 54.28}
   m_Pivot: {x: 0.5, y: 0.5}

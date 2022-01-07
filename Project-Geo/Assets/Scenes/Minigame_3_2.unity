@@ -158,9 +158,6 @@ GameObject:
   - component: {fileID: 8646156}
   - component: {fileID: 8646136}
   - component: {fileID: 8646135}
-  - component: {fileID: 8646159}
-  - component: {fileID: 8646158}
-  - component: {fileID: 8646157}
   - component: {fileID: 8646161}
   - component: {fileID: 8646160}
   m_Layer: 0
@@ -792,69 +789,6 @@ MonoBehaviour:
   eventHandler: {fileID: 8646136}
   commandList:
   - {fileID: 8646135}
-  suppressAllAutoSelections: 0
---- !u!114 &8646157
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8646129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 8646159}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 1675922855}
---- !u!114 &8646158
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8646129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 26
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 965990596}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &8646159
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8646129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 2.8571777
-    y: 297
-    width: 182.63155
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 24
-  blockName: Hilfe Button Activation
-  description: 
-  eventHandler: {fileID: 8646157}
-  commandList:
-  - {fileID: 8646158}
   suppressAllAutoSelections: 0
 --- !u!114 &8646160
 MonoBehaviour:
@@ -3314,7 +3248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &965990597
 RectTransform:
   m_ObjectHideFlags: 0

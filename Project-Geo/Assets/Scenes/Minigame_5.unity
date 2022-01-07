@@ -301,7 +301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &59180122
 Transform:
   m_ObjectHideFlags: 0
@@ -319,6 +319,7 @@ Transform:
   - {fileID: 583287953}
   - {fileID: 1432363764}
   - {fileID: 1537129698}
+  - {fileID: 878470093}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1141,9 +1142,6 @@ GameObject:
   - component: {fileID: 307465456}
   - component: {fileID: 307465455}
   - component: {fileID: 307465458}
-  - component: {fileID: 307465461}
-  - component: {fileID: 307465460}
-  - component: {fileID: 307465459}
   - component: {fileID: 307465469}
   - component: {fileID: 307465468}
   - component: {fileID: 307465467}
@@ -1232,8 +1230,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 61.865997
-    y: 92.69071
+    x: 52.58764
+    y: 98.87629
     width: 77.21649
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1274,7 +1272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 7.2989683, y: 10.113386}
+  scrollPos: {x: 7.2989683, y: 9.0824585}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1285,7 +1283,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 307465452}
   selectedCommands: []
   variables: []
   description: 
@@ -1413,69 +1412,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &307465459
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 307465461}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 210698719}
---- !u!114 &307465460
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1289177030}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &307465461
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 55.4139
-    y: 281.03094
-    width: 175.36081
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 24
-  blockName: Hilfe Button Activation
-  description: 
-  eventHandler: {fileID: 307465459}
-  commandList:
-  - {fileID: 307465460}
-  suppressAllAutoSelections: 0
 --- !u!114 &307465462
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1574,8 +1510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 60.587643
-    y: 163.7835
+    x: 58.525784
+    y: 175.12372
     width: 76.391754
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1645,8 +1581,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 56.71136
-    y: 223.06186
+    x: 55.68043
+    y: 235.43301
     width: 115.97938
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3749,12 +3685,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878470091}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.54, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -93.55617, y: -38.391167, z: 602.754}
   m_LocalScale: {x: 5.7915, y: 5.7915, z: 1.1583}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 59180122}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &907995028
 GameObject:
@@ -4900,7 +4836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1289177031
 RectTransform:
   m_ObjectHideFlags: 0

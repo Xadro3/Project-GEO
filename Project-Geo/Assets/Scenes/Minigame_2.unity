@@ -357,7 +357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &138008432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2803,9 +2803,6 @@ GameObject:
   - component: {fileID: 909850170}
   - component: {fileID: 909850169}
   - component: {fileID: 909850177}
-  - component: {fileID: 909850176}
-  - component: {fileID: 909850174}
-  - component: {fileID: 909850155}
   - component: {fileID: 909850168}
   - component: {fileID: 909850167}
   m_Layer: 0
@@ -2898,8 +2895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 83
-    y: 297
+    x: 103.73172
+    y: 253.09753
     width: 77.31707
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2971,21 +2968,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &909850155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 909850176}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 797809225}
 --- !u!114 &909850156
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3124,8 +3106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 79
-    y: 79
+    x: 99.73172
+    y: 105.829285
     width: 76.34146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3170,10 +3152,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 909850161}
-  selectedCommands:
-  - {fileID: 909850153}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3254,7 +3234,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &909850167
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3281,7 +3261,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &909850168
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3293,8 +3273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 272.26917
-    y: 294.07013
+    x: 99.09833
+    y: 380.65555
     width: 73.41463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3417,54 +3397,6 @@ MonoBehaviour:
   eventHandler: {fileID: 909850172}
   commandList:
   - {fileID: 909850171}
-  suppressAllAutoSelections: 0
---- !u!114 &909850174
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 138008431}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &909850176
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909850147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 278
-    y: 180
-    width: 169.02437
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 24
-  blockName: Hilfe Button Wartezeit
-  description: 
-  eventHandler: {fileID: 909850155}
-  commandList:
-  - {fileID: 909850174}
   suppressAllAutoSelections: 0
 --- !u!114 &909850177
 MonoBehaviour:
