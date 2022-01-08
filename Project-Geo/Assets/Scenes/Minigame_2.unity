@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14593948b9238bb49a9d1929b6dcb3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minTime: 180
   myFlow: {fileID: 909850162}
   pieces:
   - {fileID: 1948334420}
