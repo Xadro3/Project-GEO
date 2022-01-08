@@ -32,6 +32,7 @@ public class SpecialSolver : MonoBehaviour
         foreach (GameObject gameObject in pieces)
         {
             Debug.Log(gameObject.name);
+            Debug.Log(gameObject.GetComponent<Drag>().solved);
             if (gameObject.GetComponent<Drag>().solved)
             {
                 solved_pieces.Add(gameObject);
