@@ -272,6 +272,8 @@ GameObject:
   - component: {fileID: 41662767}
   - component: {fileID: 41662764}
   - component: {fileID: 41662763}
+  - component: {fileID: 41662706}
+  - component: {fileID: 41662707}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -483,8 +485,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662773}
-  selectedCommands: []
+  - {fileID: 41662736}
+  selectedCommands:
+  - {fileID: 41662707}
   variables:
   - {fileID: 41662774}
   description: 
@@ -538,6 +541,40 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &41662706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41662696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &41662707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41662696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &41662710
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -578,6 +615,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 41662710}
   commandList:
+  - {fileID: 41662706}
   - {fileID: 41662756}
   - {fileID: 41662758}
   - {fileID: 41662754}
@@ -1105,7 +1143,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 72.70725
-    y: 220.26434
+    y: 218.83577
     width: 77.42856
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1115,6 +1153,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 41662735}
   commandList:
+  - {fileID: 41662707}
   - {fileID: 41662738}
   - {fileID: 41662734}
   - {fileID: 41662737}

@@ -2901,6 +2901,8 @@ GameObject:
   - component: {fileID: 909850155}
   - component: {fileID: 909850148}
   - component: {fileID: 909850149}
+  - component: {fileID: 909850179}
+  - component: {fileID: 909850177}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2986,6 +2988,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 909850150}
   commandList:
+  - {fileID: 909850179}
   - {fileID: 909850164}
   suppressAllAutoSelections: 0
 --- !u!114 &909850152
@@ -3278,8 +3281,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 909850173}
+  selectedCommands:
+  - {fileID: 909850177}
   variables: []
   description: 
   stepPause: 0
@@ -3513,7 +3518,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 100
-    y: 179
+    y: 177.07692
     width: 77.69228
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3523,6 +3528,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 909850172}
   commandList:
+  - {fileID: 909850177}
   - {fileID: 909850171}
   suppressAllAutoSelections: 0
 --- !u!114 &909850174
@@ -3590,6 +3596,23 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 1e2eeb1e7d255e04c9fb708d832acfab, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &909850177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &909850178
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3621,6 +3644,23 @@ MonoBehaviour:
   - {fileID: 909850155}
   - {fileID: 909850149}
   suppressAllAutoSelections: 0
+--- !u!114 &909850179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 90
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &935825285
 GameObject:
   m_ObjectHideFlags: 0
