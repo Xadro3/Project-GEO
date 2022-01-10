@@ -42,6 +42,7 @@ public class SpecialSolver : MonoBehaviour
         {
 
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().errorsMinigame3_1 = errors;
+            myFlow.ExecuteBlock("correct");
             end();
         }
         else
