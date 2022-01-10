@@ -484,8 +484,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 41662702}
+  selectedCommands:
+  - {fileID: 41662714}
   variables:
   - {fileID: 41662774}
   description: 
@@ -5087,7 +5089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14593948b9238bb49a9d1929b6dcb3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 60
+  minTime: 123
   myFlow: {fileID: 41662703}
   pieces:
   - {fileID: 472057947}

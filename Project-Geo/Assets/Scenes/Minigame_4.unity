@@ -4680,7 +4680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f21a864bcb4cbb41901411e542f5091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 240
+  minTime: 272
   myFlow: {fileID: 1657309740}
   buttons:
   - {fileID: 256118184}
