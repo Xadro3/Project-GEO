@@ -44,6 +44,7 @@ public class SpecialSolver2 : MonoBehaviour
         {
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
             Debug.Log(errors);
+            myFlow.ExecuteBlock("correct");
             end();
         }
         else

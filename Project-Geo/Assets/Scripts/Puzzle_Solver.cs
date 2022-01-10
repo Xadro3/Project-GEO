@@ -42,6 +42,7 @@ public class Puzzle_Solver : MonoBehaviour
         {
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
             Debug.Log(errors);
+            myFlow.ExecuteBlock("correct");
             end();
         }
         else

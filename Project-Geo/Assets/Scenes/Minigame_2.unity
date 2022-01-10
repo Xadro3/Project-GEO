@@ -2875,8 +2875,6 @@ GameObject:
   - component: {fileID: 909850152}
   - component: {fileID: 909850151}
   - component: {fileID: 909850150}
-  - component: {fileID: 909850149}
-  - component: {fileID: 909850148}
   - component: {fileID: 909850164}
   - component: {fileID: 909850166}
   - component: {fileID: 909850165}
@@ -2885,10 +2883,16 @@ GameObject:
   - component: {fileID: 909850171}
   - component: {fileID: 909850170}
   - component: {fileID: 909850169}
-  - component: {fileID: 909850177}
   - component: {fileID: 909850168}
   - component: {fileID: 909850167}
   - component: {fileID: 909850154}
+  - component: {fileID: 909850178}
+  - component: {fileID: 909850176}
+  - component: {fileID: 909850175}
+  - component: {fileID: 909850174}
+  - component: {fileID: 909850155}
+  - component: {fileID: 909850148}
+  - component: {fileID: 909850149}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2905,24 +2909,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 909850147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 11
+  itemId: 88
   indentLevel: 0
-  storyText: "Was sie wohl abbildet? Nun, viel Gl\xFCck auf deiner weiteren Reise!"
-  description: 
-  character: {fileID: 2027088868}
-  portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: b4ba97686ba72e644b4b2df9d7ea3ebf, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &909850149
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2932,24 +2926,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 909850147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 89
   indentLevel: 0
-  storyText: "Bravo Minjung! Dies scheint wahrlich die vollst\xE4ndige Karte zu sein."
-  description: 
-  character: {fileID: 2027088868}
-  portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1814985583}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &909850150
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2979,9 +2967,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 103.73172
-    y: 253.09753
-    width: 76.30136
+    x: 105.101585
+    y: 251.72768
+    width: 80.7692
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2990,9 +2978,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 909850150}
   commandList:
-  - {fileID: 909850177}
-  - {fileID: 909850149}
-  - {fileID: 909850148}
   - {fileID: 909850164}
   suppressAllAutoSelections: 0
 --- !u!114 &909850152
@@ -3054,7 +3039,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &909850154
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3073,6 +3058,33 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &909850155
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 0
+  storyText: "Was sie wohl abbildet? Nun, viel Gl\xFCck auf deiner weiteren Reise!"
+  description: 
+  character: {fileID: 2027088868}
+  portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &909850156
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3213,7 +3225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 99.73172
     y: 105.829285
-    width: 77.39725
+    width: 79.23074
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3247,21 +3259,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -9.408533, y: 224.74771}
+  scrollPos: {x: 38.356487, y: 478.08447}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7300003
+  zoom: 0.52000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 909850161}
-  selectedCommands:
-  - {fileID: 909850154}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3354,9 +3364,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: Nicht Korrekt
+  storyText: "Hmmm\u2026die Teile scheinen nicht ganz zusammen zu passen."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2027088868}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3381,9 +3391,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 99.09833
-    y: 380.65555
-    width: 73.01369
+    x: 108.68737
+    y: 327.23077
+    width: 76.153824
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3392,6 +3402,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 909850148}
   - {fileID: 909850167}
   suppressAllAutoSelections: 0
 --- !u!114 &909850169
@@ -3495,7 +3506,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100
     y: 179
-    width: 76.30136
+    width: 77.69228
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3506,7 +3517,34 @@ MonoBehaviour:
   commandList:
   - {fileID: 909850171}
   suppressAllAutoSelections: 0
---- !u!114 &909850177
+--- !u!114 &909850174
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  storyText: "Bravo Minjung! Dies scheint wahrlich die vollst\xE4ndige Karte zu sein."
+  description: 
+  character: {fileID: 2027088868}
+  portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &909850175
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3518,7 +3556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 23
+  itemId: 85
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
@@ -3527,6 +3565,54 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &909850176
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 1e2eeb1e7d255e04c9fb708d832acfab, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &909850178
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909850147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 110.412285
+    y: 366.2107
+    width: 94.61534
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 84
+  blockName: correct
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 909850176}
+  - {fileID: 909850175}
+  - {fileID: 909850174}
+  - {fileID: 909850155}
+  - {fileID: 909850149}
+  suppressAllAutoSelections: 0
 --- !u!1 &935825285
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,6 +51,7 @@ public class colorMaster : MonoBehaviour
             }
             else
             {
+                myFlow.ExecuteBlock("correct");
                 end();
                 break;
             }
