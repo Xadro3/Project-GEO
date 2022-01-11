@@ -111,7 +111,7 @@ public class Quizmaster : MonoBehaviour
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
 
         }
-        if (failures ==1 && Time.timeSinceLevelLoadAsDouble < minTime)
+        if ((failures == 1 && Time.timeSinceLevelLoadAsDouble < minTime) || (failures == 2 && Time.timeSinceLevelLoadAsDouble < minTime))
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
@@ -123,7 +123,7 @@ public class Quizmaster : MonoBehaviour
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
 
         }
-        if (failures > 1 || Time.timeSinceLevelLoadAsDouble > minTime)
+        if (failures > 2 || Time.timeSinceLevelLoadAsDouble > minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;

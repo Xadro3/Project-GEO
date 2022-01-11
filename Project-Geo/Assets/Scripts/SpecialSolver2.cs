@@ -70,7 +70,7 @@ public class SpecialSolver2 : MonoBehaviour
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(1);
         }
-        if (errors == 1 && Time.timeSinceLevelLoadAsDouble < minTime)
+        if ((errors == 1 && Time.timeSinceLevelLoadAsDouble < minTime)|| (errors == 2 && Time.timeSinceLevelLoadAsDouble < minTime))
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
@@ -81,7 +81,7 @@ public class SpecialSolver2 : MonoBehaviour
             endbutton.gameObject.SetActive(true);
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().resutls.Add(2);
         }
-        if (errors > 1 || Time.timeSinceLevelLoadAsDouble > minTime)
+        if (errors > 2 || Time.timeSinceLevelLoadAsDouble > minTime)
         {
             nextButton.gameObject.SetActive(false);
             timeElapsed = Time.timeSinceLevelLoadAsDouble;
