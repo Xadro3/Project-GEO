@@ -6,10 +6,12 @@ using UnityEngine.UI;
 
 public class CharakterCreationVer1 : MonoBehaviour
 {
+    public SpriteRenderer hairrend;
     public SpriteRenderer headrend;
     public SpriteRenderer bodyrend;
     public SpriteRenderer eyerend;
 
+    private int hairID;
 
     private int headID;
 //    private int headColorID = 1;
@@ -19,6 +21,7 @@ public class CharakterCreationVer1 : MonoBehaviour
 
     //public Color[] coloris; // Farb Feld in unity anpassbar, soll nutzbar zur asset farbwechsel sein (ists momentan nicht.)
 
+    [SerializeField] private Sprite[] hair;
     [SerializeField] private Sprite[] head;
     [SerializeField] private Sprite[] body;
     [SerializeField] private Sprite[] eye;
@@ -41,6 +44,7 @@ public class CharakterCreationVer1 : MonoBehaviour
 
     void Update()
     {
+
         for (int i = 0; i < head.Length; i++) // Kopf
         {
             if (i == headID)
@@ -65,7 +69,15 @@ public class CharakterCreationVer1 : MonoBehaviour
             }
         }
 
-//// Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
+        for (int i = 0; i < hair.Length; i++) // Augen
+        {
+            if (i == hairID)
+            {
+                hairrend.sprite = hair[i];
+            }
+        }
+
+        //// Für die Farbwahl, noch nicht sicher ob das noch hinhaut...
         //körper.color = bodyrend.color;
 
         //for (int i = 0; i < coloris.Length; i++)
@@ -85,9 +97,35 @@ public class CharakterCreationVer1 : MonoBehaviour
         //        headrend.color = coloris[i];
         //    }
         //}
-//// ...endet hier
+        //// ...endet hier
     }
 
+    public void SelectHair(bool isForward) // zur auswahl des Haares
+    {
+        if (isForward)
+        {
+            if (hairID == hair.Length - 1)
+            {
+                hairID = 0;
+            }
+            else
+            {
+                hairID++;
+            }
+        }
+        else
+        {
+            if (hairID == 0)
+            {
+                hairID = hair.Length - 1;
+            }
+            else
+            {
+                hairID--;
+            }
+        }
+    }    
+    
     public void SelectHead(bool isForward) // zur auswahl des Kopfes
     {
         if (isForward)
