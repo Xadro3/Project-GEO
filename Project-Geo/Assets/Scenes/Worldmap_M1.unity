@@ -1929,6 +1929,10 @@ GameObject:
   - component: {fileID: 2011656640}
   - component: {fileID: 2011656639}
   - component: {fileID: 2011656638}
+  - component: {fileID: 2011656642}
+  - component: {fileID: 2011656641}
+  - component: {fileID: 2011656632}
+  - component: {fileID: 2011656627}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1998,8 +2002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -46.66678
-    y: 207.87009
+    x: -46.66677
+    y: 152.64616
     width: 91.79105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2009,6 +2013,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2011656616}
   commandList:
+  - {fileID: 2011656642}
   - {fileID: 2011656626}
   - {fileID: 2011656625}
   - {fileID: 2011656615}
@@ -2054,8 +2059,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2011656621}
-  selectedCommands:
-  - {fileID: 2011656622}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2096,8 +2100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -52.228424
-    y: 131.87363
+    x: -53.720955
+    y: 70.67959
     width: 76.26866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2229,6 +2233,23 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &2011656627
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011656613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &2011656628
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2265,7 +2286,7 @@ MonoBehaviour:
   itemId: 17
   indentLevel: 0
   storyText: "Das ist Leider Falsch, Versuchs einfach nochmal. Das sind die Koordinaten:
-    50\xB0 N, 10\xB0 O"
+    50\xB0 N\xF6rdliche l\xE4nge, 10\xB0 \xD6stliche Breite"
   description: 
   character: {fileID: 573115726}
   portrait: {fileID: 0}
@@ -2313,8 +2334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -45.93969
-    y: 323.79776
+    x: -48.924767
+    y: 289.46933
     width: 138.35823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2324,10 +2345,28 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2011656618}
   commandList:
+  - {fileID: 2011656632}
   - {fileID: 2011656630}
   - {fileID: 2011656629}
   - {fileID: 2011656628}
   suppressAllAutoSelections: 0
+--- !u!114 &2011656632
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011656613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b4ba97686ba72e644b4b2df9d7ea3ebf, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &2011656633
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2364,7 +2403,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   storyText: "Das ist Leider Falsch, Versuchs einfach nochmal. Das sind die Koordinaten:
-    50\xB0 N, 10\xB0 O"
+    50\xB0 N\xF6rdliche l\xE4nge, 10\xB0 \xD6stliche Breite"
   description: 
   character: {fileID: 573115726}
   portrait: {fileID: 0}
@@ -2427,8 +2466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -48.029232
-    y: 267.0814
+    x: -51.014305
+    y: 216.33516
     width: 137.1642
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2438,6 +2477,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2011656636}
   commandList:
+  - {fileID: 2011656641}
   - {fileID: 2011656635}
   - {fileID: 2011656634}
   - {fileID: 2011656633}
@@ -2471,7 +2511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: Hier ist deine Hilfe
+  storyText: "Der Ort ist n\xE4her als du denkst"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2498,8 +2538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -36.08896
-    y: 389.46918
+    x: -45.044186
+    y: 383.49905
     width: 77.46269
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2509,8 +2549,43 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2011656638}
   commandList:
+  - {fileID: 2011656627}
   - {fileID: 2011656639}
   suppressAllAutoSelections: 0
+--- !u!114 &2011656641
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011656613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b4ba97686ba72e644b4b2df9d7ea3ebf, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &2011656642
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011656613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 1e2eeb1e7d255e04c9fb708d832acfab, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &2012790480
 GameObject:
   m_ObjectHideFlags: 0

@@ -85,6 +85,7 @@ public class Quizmaster : MonoBehaviour
         }
         if(cardSet == 4)
         {
+            myFlow.ExecuteBlock("correct");
             end();
         }
 
