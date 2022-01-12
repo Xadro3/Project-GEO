@@ -3282,9 +3282,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 909850173}
+  - {fileID: 909850168}
   selectedCommands:
-  - {fileID: 909850177}
+  - {fileID: 909850167}
   variables: []
   description: 
   stepPause: 0
@@ -3377,7 +3377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: "Hmmm\u2026die Teile scheinen nicht ganz zusammen zu passen."
+  storyText: Hmmm... die Teile scheinen nicht ganz zusammen zu passen.
   description: 
   character: {fileID: 2027088868}
   portrait: {fileID: 0}
@@ -5727,7 +5727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425208403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.77, y: 1.473, z: 0}
+  m_LocalPosition: {x: -0.86, y: 1.522, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 673138578}
@@ -5827,7 +5827,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.91, y: 0.81}
+    oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 10.41, y: 9.15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5876,7 +5876,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1608341322209077269, guid: a60b550bee29aaa49a902f66d09529ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83ae215913c6f2045b02ce4af1216848, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5904,7 +5904,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.91, y: 0.81}
+    oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 10.41, y: 9.15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6649,8 +6649,8 @@ GameObject:
   - component: {fileID: 1651433782}
   - component: {fileID: 1651433781}
   - component: {fileID: 1651433780}
-  - component: {fileID: 1651433783}
   - component: {fileID: 1651433784}
+  - component: {fileID: 1651433783}
   m_Layer: 0
   m_Name: MeckPom
   m_TagString: Untagged
@@ -6666,7 +6666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651433778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.04, y: 2.19, z: 0}
+  m_LocalPosition: {x: 5.07, y: 1.85, z: 0}
   m_LocalScale: {x: 3.487754, y: 3.478759, z: 0.3}
   m_Children:
   - {fileID: 1766764105}
@@ -6703,9 +6703,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.22999999, y: 0.45, z: 0.28, w: 0.22}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.69, y: 0.47}
+    oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 7.98, y: 5.87}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6754,7 +6754,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8619825162573332741, guid: 52d65131c74c5b04e85c30350e977007, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f51d9410c3aa890429536ad396ab43e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6780,9 +6780,9 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.22999999, y: 0.45, z: 0.28, w: 0.22}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.69, y: 0.47}
+    oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 7.98, y: 5.87}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6790,19 +6790,25 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.345, y: 0.095}
-      - {x: 0.285, y: 0.13499999}
-      - {x: 0.24499999, y: 0.235}
-      - {x: -0.024999999, y: 0.235}
-      - {x: -0.185, y: 0.125}
-      - {x: -0.265, y: 0.095}
-      - {x: -0.345, y: 0.024999999}
-      - {x: -0.345, y: -0.185}
-      - {x: -0.265, y: -0.235}
-      - {x: -0.114999995, y: -0.235}
-      - {x: -0.085, y: -0.195}
-      - {x: 0.105, y: -0.235}
-      - {x: 0.345, y: -0.185}
+    - - {x: 0.29999998, y: -0.099999994}
+      - {x: 0.34, y: -0.08}
+      - {x: 0.34, y: 0.049999997}
+      - {x: 0.32999998, y: 0.14999999}
+      - {x: 0.22, y: 0.32999998}
+      - {x: 0.14999999, y: 0.39999998}
+      - {x: 0.07, y: 0.39999998}
+      - {x: 0.04, y: 0.32}
+      - {x: -0.049999997, y: 0.32}
+      - {x: -0.14, y: 0.22999999}
+      - {x: -0.29, y: 0.17999999}
+      - {x: -0.38, y: 0.099999994}
+      - {x: -0.39, y: 0.07}
+      - {x: -0.39, y: -0.089999996}
+      - {x: -0.25, y: -0.17}
+      - {x: -0.16, y: -0.17}
+      - {x: -0.14, y: -0.14999999}
+      - {x: -0.01, y: -0.12}
+      - {x: 0.08, y: -0.14999999}
 --- !u!114 &1651433784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7661,7 +7667,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766764104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0865, y: 0.0093, z: 0}
+  m_LocalPosition: {x: -0.002, y: 0.055, z: 0}
   m_LocalScale: {x: 0.12648, y: 0.1518641, z: 3.3333333}
   m_Children: []
   m_Father: {fileID: 1651433779}
@@ -8749,7 +8755,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073351868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.364, y: 2.743, z: 0}
+  m_LocalPosition: {x: 1.446, y: 2.431, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 673138578}

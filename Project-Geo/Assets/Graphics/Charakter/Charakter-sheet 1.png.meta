@@ -67,7 +67,7 @@ TextureImporter:
     second: Kopf_11
   - first:
       213: 3631133105728039835
-    second: Kopf_12
+    second: Kopf_4
   - first:
       213: 704317981549491397
     second: Augen_11
@@ -325,7 +325,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kopf_4
+      name: Kopf_12
       rect:
         serializedVersion: 2
         x: 360
@@ -703,7 +703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kopf_12
+      name: Kopf_4
       rect:
         serializedVersion: 2
         x: 364
