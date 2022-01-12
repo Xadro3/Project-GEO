@@ -35,9 +35,11 @@ public class Puzzle_Solver : MonoBehaviour
         {
             if (gameObject.GetComponent<Drag>().solved)
             {
+                Debug.Log(gameObject.name);
                 solved_pieces.Add(gameObject);
             }
         }
+        Debug.Log(pieces.Count + " " + solved_pieces.Count);
         if (pieces.Count==solved_pieces.Count)
         {
             dontDestroy.GetComponent<DontDestroyOnLoad_MapKeys>().solved_games.Add(true);
