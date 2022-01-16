@@ -346,7 +346,6 @@ Transform:
   m_Children:
   - {fileID: 1640915330}
   - {fileID: 307465449}
-  - {fileID: 1863975101}
   - {fileID: 583287953}
   - {fileID: 1432363764}
   - {fileID: 1537129698}
@@ -2207,7 +2206,6 @@ GameObject:
   - component: {fileID: 307465458}
   - component: {fileID: 307465469}
   - component: {fileID: 307465468}
-  - component: {fileID: 307465467}
   - component: {fileID: 307465466}
   - component: {fileID: 307465465}
   - component: {fileID: 307465464}
@@ -2258,6 +2256,8 @@ GameObject:
   - component: {fileID: 307465509}
   - component: {fileID: 307465508}
   - component: {fileID: 307465507}
+  - component: {fileID: 307465513}
+  - component: {fileID: 307465512}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2377,8 +2377,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 307465469}
+  selectedCommands:
+  - {fileID: 307465493}
   variables: []
   description: 
   stepPause: 0
@@ -2446,7 +2448,7 @@ MonoBehaviour:
     bin Saki, Leiterin von Tokyos Station der Schichten! Tats\xE4chlich bist du sogar
     einer der Ersten, welche an dieser Station ankamen."
   description: 
-  character: {fileID: 1863975100}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2676,33 +2678,6 @@ MonoBehaviour:
   - {fileID: 307465464}
   - {fileID: 307465463}
   suppressAllAutoSelections: 0
---- !u!114 &307465467
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 26
-  indentLevel: 0
-  storyText: "Achte auf die H\xF6he der Legende zur H\xF6he des eigentlichen Bergs.\t\t\n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &307465468
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2733,7 +2708,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 59.67776
-    y: 219.69344
+    y: 218.37764
     width: 119.47366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2744,7 +2719,6 @@ MonoBehaviour:
   eventHandler: {fileID: 307465468}
   commandList:
   - {fileID: 307465511}
-  - {fileID: 307465467}
   - {fileID: 307465493}
   - {fileID: 307465501}
   - {fileID: 307465500}
@@ -2763,9 +2737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Nicht Korrekt
+  storyText: "Du musst dich geirrt haben\u2026 "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1432363765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2802,7 +2776,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 307465507}
+  - {fileID: 307465513}
   - {fileID: 307465470}
+  - {fileID: 307465512}
   suppressAllAutoSelections: 0
 --- !u!114 &307465472
 MonoBehaviour:
@@ -2821,7 +2797,7 @@ MonoBehaviour:
   storyText: "Sie hoffen, dass du ihnen bei der Veranschaulichung der H\xF6henlinien
     helfen kannst. Hihihi, streng dich an!"
   description: 
-  character: {fileID: 1863975100}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2850,7 +2826,7 @@ MonoBehaviour:
     Vulkan Mt. Fuji viele neue Erkenntnisse hinzugewinnen. Allerdings fehlt es den
     Forschern zurzeit an einer anschaulichen Darstellung ihrer Ergebnisse. '
   description: 
-  character: {fileID: 1863975100}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2878,7 +2854,7 @@ MonoBehaviour:
   storyText: "Hihihi, nein, aber es ist ein knappes Rennen. Diese Station ist deine
     Chance die F\xFChrung im Geo Cup zu \xFCbernehmen. "
   description: 
-  character: {fileID: 1863975100}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3293,7 +3269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  storyText: 'Willst du die Richtigen Farben Aktivieren?
+  storyText: 'Willst du die Hilfsfarben Aktivieren?
 
 '
   description: 
@@ -3498,7 +3474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 54.176125
+    x: 55.491913
     y: 381.18802
     width: 92.105255
     height: 40
@@ -3685,6 +3661,48 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &307465512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307465448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1537129697}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &307465513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307465448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1537129697}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &424936932
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,7 +4258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59180122}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &583287954
 MonoBehaviour:
@@ -4255,7 +4273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dr. Fogg
-  nameColor: {r: 0, g: 1, b: 0.038595438, a: 1}
+  nameColor: {r: 0, g: 0.5372549, b: 0.1254902, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -5936,7 +5954,7 @@ Transform:
   m_LocalScale: {x: 5.7915, y: 5.7915, z: 1.1583}
   m_Children: []
   m_Father: {fileID: 59180122}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &882973131
 GameObject:
@@ -8147,7 +8165,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59180122}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1432363765
 MonoBehaviour:
@@ -8941,7 +8959,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 59180122}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1537129699
 SpriteRenderer:
@@ -10210,57 +10228,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1863975099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1863975101}
-  - component: {fileID: 1863975100}
-  m_Layer: 0
-  m_Name: ' Charakter 5 Saki'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1863975100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863975099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: Saki
-  nameColor: {r: 0.42078352, g: 0, b: 1, a: 1}
-  soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 0}
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &1863975101
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863975099}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -93.55617, y: -38.931168, z: 602.754}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 59180122}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867390463
 GameObject:
   m_ObjectHideFlags: 0

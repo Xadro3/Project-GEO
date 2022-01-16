@@ -3215,7 +3215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dr. Fogg
-  nameColor: {r: 0, g: 1, b: 0.038595438, a: 1}
+  nameColor: {r: 0, g: 0.5372549, b: 0.1254902, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -4916,7 +4916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Ning
-  nameColor: {r: 1, g: 0.50377357, b: 0.9670598, a: 1}
+  nameColor: {r: 0.98039216, g: 0, b: 0.91764706, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
@@ -5133,7 +5133,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.265823
     y: 131.9011
-    width: 77.34177
+    width: 76.34148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5165,11 +5165,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 19.263695, y: 229.94406}
+  scrollPos: {x: -36.987312, y: 202.41318}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.79000014
+  zoom: 0.8199997
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5177,9 +5177,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1657309751}
+  - {fileID: 1657309756}
   selectedCommands:
-  - {fileID: 1657309762}
+  - {fileID: 1657309755}
   variables: []
   description: 
   stepPause: 0
@@ -5439,7 +5439,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.179314
     y: 193.13565
-    width: 78.35442
+    width: 77.317085
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5523,7 +5523,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "1m sind 100cm\n 1cm sind 10mm"
+  storyText: '1 Meter sind 100 cm
+
+    1 cm sind 10 mm'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5550,9 +5552,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 62.634865
+    x: 61.41535
     y: 266.92813
-    width: 76.32911
+    width: 75.36586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5646,7 +5648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.784
     y: 352.89062
-    width: 90.50632
+    width: 89.02441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5662,7 +5664,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1657309761
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5679,7 +5681,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1657309762
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

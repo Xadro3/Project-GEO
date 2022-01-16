@@ -638,9 +638,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 592660923}
+  - {fileID: 592660934}
   selectedCommands:
-  - {fileID: 592660924}
+  - {fileID: 592660926}
   variables: []
   description: 
   stepPause: 0
@@ -807,8 +807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: "Nicht korrekt. Die n\xE4chste Station befindet sich im Land der aufgehenden
-    Sonne!"
+  storyText: "Das stimmt nicht. Die n\xE4chste Station befindet sich im Land der
+    aufgehenden Sonne!"
   description: 
   character: {fileID: 919940871}
   portrait: {fileID: 0}
@@ -909,8 +909,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "Nicht korrekt. Die n\xE4chste Station befindet sich im Land der aufgehenden
-    Sonne!"
+  storyText: "Das stimmt nicht. Die n\xE4chste Station befindet sich im Land der
+    aufgehenden Sonne!"
   description: 
   character: {fileID: 919940871}
   portrait: {fileID: 0}

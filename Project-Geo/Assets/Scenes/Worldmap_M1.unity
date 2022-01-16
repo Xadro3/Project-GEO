@@ -1922,7 +1922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -46.66677
     y: 152.64616
-    width: 91.79105
+    width: 92.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1964,11 +1964,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 177.88, y: 364.26236}
+  scrollPos: {x: 70.66149, y: 423.74677}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.66999984
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1976,8 +1976,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2011656621}
-  selectedCommands: []
+  - {fileID: 2011656640}
+  selectedCommands:
+  - {fileID: 2011656639}
   variables: []
   description: 
   stepPause: 0
@@ -2020,7 +2021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -53.720955
     y: 70.67959
-    width: 76.26866
+    width: 77.63637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2204,7 +2205,7 @@ MonoBehaviour:
   itemId: 17
   indentLevel: 0
   storyText: "Das ist Leider Falsch, Versuchs einfach nochmal. Das sind die Koordinaten:
-    50\xB0 N\xF6rdliche l\xE4nge, 10\xB0 \xD6stliche Breite"
+    50\xB0 n\xF6rdliche L\xE4nge, 10\xB0 \xF6stliche Breite."
   description: 
   character: {fileID: 573115726}
   portrait: {fileID: 0}
@@ -2254,7 +2255,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -48.924767
     y: 289.46933
-    width: 138.35823
+    width: 137.27274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2321,7 +2322,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   storyText: "Das ist Leider Falsch, Versuchs einfach nochmal. Das sind die Koordinaten:
-    50\xB0 N\xF6rdliche l\xE4nge, 10\xB0 \xD6stliche Breite"
+    50\xB0 n\xF6rdliche L\xE4nge, 10\xB0 \xF6stliche Breite."
   description: 
   character: {fileID: 573115726}
   portrait: {fileID: 0}
@@ -2386,7 +2387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -51.014305
     y: 216.33516
-    width: 137.1642
+    width: 135.81819
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2458,7 +2459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -45.044186
     y: 383.49905
-    width: 77.46269
+    width: 76.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

@@ -352,7 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Willkommen bei der Station der Orientierung.
+  storyText: Willkommen bei der Station der Himmelsrichtungen.
   description: 
   character: {fileID: 463365122}
   portrait: {fileID: 0}
@@ -429,7 +429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.46154
     y: 90
-    width: 79.09089
+    width: 80.967705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -475,11 +475,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -192.36868, y: 614.8813}
+  scrollPos: {x: -40.756012, y: 1289.6014}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.55000037
+  zoom: 0.3100004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -487,9 +487,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662766}
+  - {fileID: 41662702}
   selectedCommands:
-  - {fileID: 41662708}
+  - {fileID: 41662699}
   variables:
   - {fileID: 41662774}
   description: 
@@ -650,7 +650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.57162
     y: 143.24031
-    width: 116.90904
+    width: 119.67733
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1188,7 +1188,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.70725
     y: 218.83577
-    width: 76.1818
+    width: 75.80642
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1636,7 +1636,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.23407
     y: 75.89904
-    width: 74.72726
+    width: 75.80642
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1806,7 +1806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 294.83658
     y: 112.260605
-    width: 92.18179
+    width: 96.45155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2672,7 +2672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dr. Fogg
-  nameColor: {r: 0, g: 1, b: 0.23499012, a: 1}
+  nameColor: {r: 0, g: 0.5377358, b: 0.12489349, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -5379,7 +5379,7 @@ MonoBehaviour:
     m_LineSpacing: 1.25
   m_Text: 'Station der
 
-    Orientierung'
+    Himmelsrichtungen'
 --- !u!222 &2009578643
 CanvasRenderer:
   m_ObjectHideFlags: 0

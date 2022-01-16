@@ -2586,6 +2586,8 @@ GameObject:
   - component: {fileID: 878615342}
   - component: {fileID: 878615341}
   - component: {fileID: 878615347}
+  - component: {fileID: 878615349}
+  - component: {fileID: 878615348}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2696,11 +2698,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -7.0098076, y: 340.7963}
+  scrollPos: {x: -81.145935, y: 410.38165}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.73000026
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2708,8 +2710,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615338}
-  selectedCommands: []
+  - {fileID: 878615321}
+  selectedCommands:
+  - {fileID: 878615349}
   variables: []
   description: 
   stepPause: 0
@@ -2926,7 +2929,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 55.63014
-    width: 77.39725
+    width: 76.249985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3689,7 +3692,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.26028
     y: 124.14285
-    width: 115.7534
+    width: 114.99996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3805,7 +3808,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.35079
     y: -31.226887
-    width: 73.01369
+    width: 74.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3814,8 +3817,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 878615349}
   - {fileID: 878615339}
   - {fileID: 878615320}
+  - {fileID: 878615348}
   suppressAllAutoSelections: 0
 --- !u!114 &878615322
 MonoBehaviour:
@@ -3869,7 +3874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.091896
     y: 189.34052
-    width: 63.15068
+    width: 64.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4113,7 +4118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 191.94122
     y: -31.207367
-    width: 89.45204
+    width: 91.24998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4177,7 +4182,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.722145
     y: 259.2034
-    width: 73.01369
+    width: 74.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4306,7 +4311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.91382
     y: -113.39921
-    width: 112.46573
+    width: 116.24996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4369,6 +4374,48 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &878615348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878615269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1275871968}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &878615349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878615269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1275871968}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &932761082
 GameObject:
   m_ObjectHideFlags: 0
@@ -6217,7 +6264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dr. Fogg
-  nameColor: {r: 0, g: 1, b: 0.038595438, a: 1}
+  nameColor: {r: 0, g: 0.5372549, b: 0.1254902, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0

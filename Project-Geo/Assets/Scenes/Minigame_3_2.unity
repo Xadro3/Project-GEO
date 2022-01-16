@@ -164,6 +164,8 @@ GameObject:
   - component: {fileID: 8646131}
   - component: {fileID: 8646145}
   - component: {fileID: 8646144}
+  - component: {fileID: 8646147}
+  - component: {fileID: 8646146}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -383,9 +385,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 8646155}
+  - {fileID: 8646161}
   selectedCommands:
-  - {fileID: 8646144}
+  - {fileID: 8646146}
   variables: []
   description: 
   stepPause: 0
@@ -522,6 +524,48 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: de2a98dfc28acec4b9e2a0d751ddf815, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &8646146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8646129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 57014385}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &8646147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8646129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 57014385}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &8646150
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -753,8 +797,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 8646147}
   - {fileID: 8646131}
   - {fileID: 8646160}
+  - {fileID: 8646146}
   suppressAllAutoSelections: 0
 --- !u!114 &8646162
 MonoBehaviour:
