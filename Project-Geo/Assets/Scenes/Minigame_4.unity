@@ -5174,8 +5174,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1657309760}
-  selectedCommands: []
+  - {fileID: 1657309756}
+  selectedCommands:
+  - {fileID: 1657309755}
   variables: []
   description: 
   stepPause: 0
@@ -5450,7 +5451,7 @@ MonoBehaviour:
 
     1 cm sind 10 mm'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2046841957}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6242,6 +6243,7 @@ Transform:
   - {fileID: 909690914}
   - {fileID: 1634656741}
   - {fileID: 1088820786}
+  - {fileID: 2046841956}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6547,6 +6549,56 @@ RectTransform:
   m_AnchoredPosition: {x: 264.4, y: -209.6}
   m_SizeDelta: {x: 111.19, y: 60.79}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2046841955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046841956}
+  - component: {fileID: 2046841957}
+  m_Layer: 0
+  m_Name: HelpCharakter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046841956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046841955}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.086494, y: -3.7767043, z: -94.39008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1897404225}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2046841957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046841955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Unbekannter Helfer
+  nameColor: {r: 0.93052006, g: 1, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &2047639488
 GameObject:
   m_ObjectHideFlags: 0
