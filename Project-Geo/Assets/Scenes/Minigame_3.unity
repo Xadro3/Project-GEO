@@ -2588,6 +2588,8 @@ GameObject:
   - component: {fileID: 878615347}
   - component: {fileID: 878615349}
   - component: {fileID: 878615348}
+  - component: {fileID: 878615351}
+  - component: {fileID: 878615350}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2698,7 +2700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -81.145935, y: 410.38165}
+  scrollPos: {x: -40.520935, y: 435.38165}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2710,9 +2712,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615321}
+  - {fileID: 878615335}
   selectedCommands:
-  - {fileID: 878615349}
+  - {fileID: 878615350}
   variables: []
   description: 
   stepPause: 0
@@ -4128,7 +4130,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 878615318}
+  - {fileID: 878615351}
   - {fileID: 878615340}
+  - {fileID: 878615350}
   suppressAllAutoSelections: 0
 --- !u!114 &878615336
 MonoBehaviour:
@@ -4408,6 +4412,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 110
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1275871968}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &878615350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878615269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1275871968}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &878615351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878615269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}

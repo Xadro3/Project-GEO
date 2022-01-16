@@ -1653,9 +1653,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1623150338}
+  - {fileID: 1623150344}
   selectedCommands:
-  - {fileID: 1623150351}
+  - {fileID: 1623150340}
   variables: []
   description: 
   stepPause: 0
@@ -1937,9 +1937,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "WA- \u2026 \u2026 \u2026 das ist leider falsch\u2026 Die n\xE4chste
-    Station liegt an den Koordinaten 20\xB0 n\xF6rdliche L\xE4nge, 115\xB0 \xF6stliche
-    Breite"
+  storyText: "WA- ... das ist leider falsch... Die n\xE4chste Station liegt an den
+    Koordinaten 20\xB0 n\xF6rdliche L\xE4nge, 115\xB0 \xF6stliche Breite"
   description: 
   character: {fileID: 693989640}
   portrait: {fileID: 0}
@@ -2091,9 +2090,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: "WA- \u2026 \u2026 \u2026 das ist leider falsch\u2026 Die n\xE4chste
-    Station liegt an den Koordinaten 20\xB0 n\xF6rdliche L\xE4nge, 115\xB0 \xF6stliche
-    Breite"
+  storyText: "WA- ... das ist leider falsch... Die n\xE4chste Station liegt an den
+    Koordinaten 20\xB0 n\xF6rdliche L\xE4nge, 115\xB0 \xF6stliche Breite"
   description: 
   character: {fileID: 693989640}
   portrait: {fileID: 0}

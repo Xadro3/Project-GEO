@@ -2378,9 +2378,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 307465469}
-  selectedCommands:
-  - {fileID: 307465493}
+  - {fileID: 307465502}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2448,7 +2447,7 @@ MonoBehaviour:
     bin Saki, Leiterin von Tokyos Station der Schichten! Tats\xE4chlich bist du sogar
     einer der Ersten, welche an dieser Station ankamen."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1432363765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2616,7 +2615,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Gl\xFCckwunsch, du hast das Rennen geschafft."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1432363765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2797,7 +2796,7 @@ MonoBehaviour:
   storyText: "Sie hoffen, dass du ihnen bei der Veranschaulichung der H\xF6henlinien
     helfen kannst. Hihihi, streng dich an!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1432363765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2826,7 +2825,7 @@ MonoBehaviour:
     Vulkan Mt. Fuji viele neue Erkenntnisse hinzugewinnen. Allerdings fehlt es den
     Forschern zurzeit an einer anschaulichen Darstellung ihrer Ergebnisse. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1432363765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2854,7 +2853,7 @@ MonoBehaviour:
   storyText: "Hihihi, nein, aber es ist ein knappes Rennen. Diese Station ist deine
     Chance die F\xFChrung im Geo Cup zu \xFCbernehmen. "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1432363765}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
