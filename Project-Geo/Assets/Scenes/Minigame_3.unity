@@ -2750,11 +2750,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -40.520935, y: 435.38165}
+  scrollPos: {x: 52.604225, y: 221.72855}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.64000034
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2762,9 +2762,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615316}
-  selectedCommands:
-  - {fileID: 878615314}
+  - {fileID: 878615335}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2981,7 +2980,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 55.63014
-    width: 76.249985
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3113,7 +3112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Die Pl\xFCnderung haben wir schon aufgegeben\u2026 aber du kannst uns
+  storyText: "Die Pl\xFCnderung haben wir schon aufgegeben... aber du kannst uns
     bei etwas anderem helfen!"
   description: 
   character: {fileID: 67062163}
@@ -3743,9 +3742,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 77.26028
-    y: 124.14285
-    width: 114.99996
+    x: 83.26028
+    y: 161.14285
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3859,9 +3858,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 80.35079
-    y: -31.226887
-    width: 74.999985
+    x: 79.35079
+    y: -15.226887
+    width: 74.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3925,9 +3924,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 85.091896
-    y: 189.34052
-    width: 64.99999
+    x: 79.341896
+    y: 227.27802
+    width: 64.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4169,9 +4168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 191.94122
-    y: -31.207367
-    width: 91.24998
+    x: 149.94122
+    y: -15.207367
+    width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4235,9 +4234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 83.722145
-    y: 259.2034
-    width: 74.999985
+    x: 139.59714
+    y: 227.2659
+    width: 74.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4364,9 +4363,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65.91382
-    y: -113.39921
-    width: 116.24996
+    x: 84.66382
+    y: 109.16315
+    width: 116.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4431,7 +4430,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &878615348
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4452,7 +4451,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &878615349
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4473,7 +4472,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &878615350
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4494,7 +4493,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &878615351
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
