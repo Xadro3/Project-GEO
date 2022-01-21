@@ -2026,7 +2026,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2011656640}
+  - {fileID: 2011656621}
   selectedCommands: []
   variables: []
   description: 
@@ -2253,7 +2253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "Das ist Leider Falsch, Versuchs einfach nochmal. Das sind die Koordinaten:
+  storyText: "Das ist leider falsch. Versuchs einfach nochmal. Das sind die Koordinaten:
     50\xB0 n\xF6rdliche L\xE4nge, 10\xB0 \xF6stliche Breite."
   description: 
   character: {fileID: 573115726}
@@ -2370,7 +2370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "Das ist Leider Falsch, Versuchs einfach nochmal. Das sind die Koordinaten:
+  storyText: "Das ist leider falsch. Versuchs einfach nochmal. Das sind die Koordinaten:
     50\xB0 n\xF6rdliche L\xE4nge, 10\xB0 \xF6stliche Breite."
   description: 
   character: {fileID: 573115726}
@@ -2479,7 +2479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Der Ort ist n\xE4her als du denkst"
+  storyText: Denk an die Hauptstadt unseres Landes.
   description: 
   character: {fileID: 341958867}
   portrait: {fileID: 0}

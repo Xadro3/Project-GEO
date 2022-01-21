@@ -4680,7 +4680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f21a864bcb4cbb41901411e542f5091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 272
+  minTime: 265
   myFlow: {fileID: 1657309740}
   buttons:
   - {fileID: 256118184}
@@ -5009,7 +5009,6 @@ GameObject:
   - component: {fileID: 1657309754}
   - component: {fileID: 1657309753}
   - component: {fileID: 1657309760}
-  - component: {fileID: 1657309759}
   - component: {fileID: 1657309758}
   - component: {fileID: 1657309757}
   - component: {fileID: 1657309752}
@@ -5129,8 +5128,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63.265823
-    y: 131.9011
-    width: 77.2
+    y: 130.9011
+    width: 77.34177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5162,11 +5161,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 117.181076, y: 111.35527}
+  scrollPos: {x: -31.88219, y: 169.26656}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5174,8 +5173,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1657309756}
-  selectedCommands: []
+  - {fileID: 1657309739}
+  selectedCommands:
+  - {fileID: 1657309745}
   variables: []
   description: 
   stepPause: 0
@@ -5201,9 +5201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "Ja, ja, wahrlich bemerkenswert. \r\nWillkommen in Hongkong! Ich bin
-    Ning, die Leiterin der Station der Gr\xF6\xDFe! Als einer der zurzeit f\xFChrenden
-    Teilnehmer des Rennens erwarte ich viel von dir. \r"
+  storyText: "Wahrlich bemerkenswert. \r\nWillkommen in Hongkong! Ich bin Ning, die
+    Leiterin der Station der Gr\xF6\xDFe! Wir erwarten viel von dir. "
   description: 
   character: {fileID: 1634656740}
   portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
@@ -5321,7 +5320,8 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   storyText: "Herr Rockefeller hat vor kurzem das Weltmuseum in Hongkong er\xF6ffnet.
-    Es scheint allerdings gro\xDFe Probleme bei der Nutzung des Ma\xDFstabs zu geben. "
+    Es scheint allerdings gro\xDFe Probleme bei der Berechnung des Ma\xDFstabs zu
+    geben. "
   description: 
   character: {fileID: 1634656740}
   portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
@@ -5365,7 +5365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.179314
     y: 193.13565
-    width: 78.8
+    width: 78.35442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5477,7 +5477,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66.41535
     y: 257.92813
-    width: 76.4
+    width: 76.32911
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5503,8 +5503,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "Sehr beeindruckend ja, ja! Das Rockefeller Weltmuseum ist dankbar f\xFCr
-    deine Hilfe und gratuliert dir zum Bestehen der Station der Gr\xF6\xDFe!"
+  storyText: "Sehr beeindruckend! Das Rockefeller Weltmuseum ist dankbar f\xFCr deine
+    Hilfe und gratuliert dir zum Bestehen der Station der Gr\xF6\xDFe!"
   description: 
   character: {fileID: 1634656740}
   portrait: {fileID: 21300000, guid: bd30315012f1d9340960957ca546eb99, type: 3}
@@ -5538,23 +5538,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &1657309759
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657309733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 21
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 1e2eeb1e7d255e04c9fb708d832acfab, type: 3}
-  volume: 1
-  waitUntilFinished: 0
 --- !u!114 &1657309760
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5569,9 +5552,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65.784
-    y: 60.890625
-    width: 90.8
+    x: 61.783997
+    y: 59.890625
+    width: 90.50632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5580,7 +5563,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1657309759}
   - {fileID: 1657309758}
   - {fileID: 1657309757}
   - {fileID: 1657309752}

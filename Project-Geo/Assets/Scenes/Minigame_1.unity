@@ -255,8 +255,6 @@ GameObject:
   - component: {fileID: 41662746}
   - component: {fileID: 41662745}
   - component: {fileID: 41662744}
-  - component: {fileID: 41662757}
-  - component: {fileID: 41662747}
   - component: {fileID: 41662758}
   - component: {fileID: 41662766}
   - component: {fileID: 41662765}
@@ -429,7 +427,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.46154
     y: 75
-    width: 76.26866
+    width: 75.41177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -475,11 +473,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 87.219864, y: 362.27054}
+  scrollPos: {x: -50.954895, y: 292.801}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6699999
+  zoom: 0.8499997
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -487,8 +485,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662736}
-  selectedCommands: []
+  - {fileID: 41662702}
+  selectedCommands:
+  - {fileID: 41662712}
   variables:
   - {fileID: 41662774}
   description: 
@@ -649,7 +648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.57162
     y: 128.24031
-    width: 116.865685
+    width: 111.17649
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -667,8 +666,6 @@ MonoBehaviour:
   - {fileID: 41662748}
   - {fileID: 41662746}
   - {fileID: 41662745}
-  - {fileID: 41662757}
-  - {fileID: 41662747}
   - {fileID: 41662744}
   - {fileID: 41662739}
   suppressAllAutoSelections: 0
@@ -686,7 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Setz ihn bitte wieder richtig zusammen.
+  storyText: Bitte setze ihn wieder richtig zusammen.
   description: 
   character: {fileID: 463365122}
   portrait: {fileID: 0}
@@ -713,7 +710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "So wie er jetzt ist kann man ihn nicht benutzen\u2026"
+  storyText: So wie er jetzt ist, kann man ihn nicht benutzen...
   description: 
   character: {fileID: 463365122}
   portrait: {fileID: 0}
@@ -740,8 +737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "Musst du mir allerdings erst beweisen, dass du es Wert bist dir einen
-    meiner Hei\xDFluftballone zu leihen."
+  storyText: "Um dich zu qualifizieren, musst du mir allerdings erst beweisen, dass
+    du w\xFCrdig bist einen meiner Hei\xDFluftballone zu leihen."
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
@@ -768,7 +765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: 'Endlich bin ich in New York angekommen
+  storyText: 'Endlich bin ich in New York angekommen.
 
 '
   description: 
@@ -799,7 +796,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Es freut mich nat\xFCrlich sehr, dass du dich meiner Herausforderung
     stellst. So eine Weltreise im Hei\xDFluftballon ist selbstverst\xE4ndlich kein
-    Kinderspiel\u2026"
+    Kinderspiel..."
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 21300000, guid: 57ea1bb0cb1620940b482ac54d6ccdf2, type: 3}
@@ -1143,7 +1140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Denk immer daran: \nNie \nOhne \nSeife \nWaschen"
+  storyText: "Denk immer daran: \nNie\nOhne \nSeife \nWaschen"
   description: 
   character: {fileID: 463365122}
   portrait: {fileID: 0}
@@ -1187,7 +1184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.19979
     y: 198.83577
-    width: 77.46269
+    width: 75.41177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1303,7 +1300,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: "3\u2026\r\n\n"
+  storyText: '3...
+
+    2...
+
+    1...'
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 0}
@@ -1332,33 +1333,6 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Nun will ich euch nicht l\xE4nger warten lassen.\nSeid ihr bereit?
     \r\n"
-  description: 
-  character: {fileID: 67964649}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &41662747
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41662696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 64
-  indentLevel: 0
-  storyText: "1\u2026\r\n"
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 0}
@@ -1440,8 +1414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: "Willkommen zum Startschuss des Geo Cups, dem gro\xDFen Rennen um die
-    Welt!!"
+  storyText: "Willkommen zum Startschuss des Atlasrennens, dem gro\xDFen Rennen um
+    die Welt!!"
   description: 
   character: {fileID: 67964649}
   portrait: {fileID: 0}
@@ -1496,33 +1470,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &41662757
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41662696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 63
-  indentLevel: 0
-  storyText: "2\u2026\r\n\n"
-  description: 
-  character: {fileID: 67964649}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &41662758
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1606,7 +1553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: "Das sieht noch nicht ganz richtig aus\u2026"
+  storyText: Das sieht noch nicht ganz richtig aus...
   description: 
   character: {fileID: 463365122}
   portrait: {fileID: 0}
@@ -1635,7 +1582,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.86557
     y: 4.846443
-    width: 75.07463
+    width: 72.58824
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1805,7 +1752,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.57321
     y: 4.365921
-    width: 89.40299
+    width: 87.64707
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5185,7 +5132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14593948b9238bb49a9d1929b6dcb3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 123
+  minTime: 130
   myFlow: {fileID: 41662703}
   pieces:
   - {fileID: 472057947}

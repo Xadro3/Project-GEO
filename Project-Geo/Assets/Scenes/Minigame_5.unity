@@ -2204,7 +2204,6 @@ GameObject:
   - component: {fileID: 307465457}
   - component: {fileID: 307465456}
   - component: {fileID: 307465455}
-  - component: {fileID: 307465458}
   - component: {fileID: 307465469}
   - component: {fileID: 307465468}
   - component: {fileID: 307465466}
@@ -2214,11 +2213,6 @@ GameObject:
   - component: {fileID: 307465462}
   - component: {fileID: 307465471}
   - component: {fileID: 307465470}
-  - component: {fileID: 307465478}
-  - component: {fileID: 307465477}
-  - component: {fileID: 307465476}
-  - component: {fileID: 307465475}
-  - component: {fileID: 307465474}
   - component: {fileID: 307465473}
   - component: {fileID: 307465472}
   - component: {fileID: 307465479}
@@ -2343,12 +2337,6 @@ MonoBehaviour:
   - {fileID: 307465454}
   - {fileID: 307465455}
   - {fileID: 307465456}
-  - {fileID: 307465458}
-  - {fileID: 307465478}
-  - {fileID: 307465477}
-  - {fileID: 307465476}
-  - {fileID: 307465475}
-  - {fileID: 307465474}
   - {fileID: 307465473}
   - {fileID: 307465472}
   - {fileID: 307465479}
@@ -2367,7 +2355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 28.783329, y: 243.02333}
+  scrollPos: {x: -56.32306, y: 244.08716}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2379,8 +2367,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 307465488}
-  selectedCommands: []
+  - {fileID: 307465452}
+  selectedCommands:
+  - {fileID: 307465472}
   variables: []
   description: 
   stepPause: 0
@@ -2444,9 +2433,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "Hihihi, wie ich sehe, bist du motiviert den Geo Cup zu gewinnen. Ich
-    bin Saki, Leiterin von Tokyos Station der Schichten! Tats\xE4chlich bist du sogar
-    einer der Ersten, welche an dieser Station ankamen."
+  storyText: "Hihihi, wie ich sehe, bist du motiviert das Atlasrennen zu gewinnen.
+    Ich bin Saki, Leiterin von Tokyos Station der H\xF6he! "
   description: 
   character: {fileID: 1432363765}
   portrait: {fileID: 0}
@@ -2486,27 +2474,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &307465458
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1537129697}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &307465459
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2614,7 +2581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Gl\xFCckwunsch, du hast das Rennen geschafft."
+  storyText: "Gl\xFCckwunsch, du hast die Station der H\xF6he geschafft."
   description: 
   character: {fileID: 1432363765}
   portrait: {fileID: 0}
@@ -2662,8 +2629,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 55.89409
-    y: 165.91312
+    x: 181.42593
+    y: 159.53014
     width: 77.23404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2795,7 +2762,7 @@ MonoBehaviour:
   itemId: 86
   indentLevel: 0
   storyText: "Sie hoffen, dass du ihnen bei der Veranschaulichung der H\xF6henlinien
-    helfen kannst. Hihihi, streng dich an!"
+    helfen kannst. Streng dich an!"
   description: 
   character: {fileID: 1432363765}
   portrait: {fileID: 0}
@@ -2822,9 +2789,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: 'Das Rockefeller Institut in Tokyo konnte durch ihre Forschungen am
+  storyText: "Das Rockefeller Institut in Tokyo konnte durch ihre Forschungen am
     Vulkan Mt. Fuji viele neue Erkenntnisse hinzugewinnen. Allerdings fehlt es den
-    Forschern zurzeit an einer anschaulichen Darstellung ihrer Ergebnisse. '
+    Forschern eine genauere Gliederung der H\xF6henschichten eines Berges."
   description: 
   character: {fileID: 1432363765}
   portrait: {fileID: 0}
@@ -2837,116 +2804,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &307465474
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 84
-  indentLevel: 0
-  storyText: "Hihihi, nein, aber es ist ein knappes Rennen. Diese Station ist deine
-    Chance die F\xFChrung im Geo Cup zu \xFCbernehmen. "
-  description: 
-  character: {fileID: 1432363765}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &307465475
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 83
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1537129697}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &307465476
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 82
-  indentLevel: 0
-  targetObject: {fileID: 1654017447}
-  methodName: Deactivator
-  delay: 0
---- !u!114 &307465477
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 81
-  indentLevel: 0
-  storyText: Einer der Ersten? Also nicht der Erste?
-  description: 
-  character: {fileID: 583287954}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &307465478
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307465448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 80
-  indentLevel: 0
-  targetObject: {fileID: 1654017447}
-  methodName: Activator
-  delay: 0
 --- !u!114 &307465479
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3269,7 +3126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  storyText: 'Willst du die Hilfsfarben Aktivieren?
+  storyText: 'Willst du die Hilfsfarben aktivieren?
 
 '
   description: 
@@ -3474,7 +3331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 122.597115
+    x: 120.46945
     y: 23.293335
     width: 90
     height: 40
@@ -3525,7 +3382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: "Gl\xFCckwunsch, du hast das Rennen geschafft."
+  storyText: "Gl\xFCckwunsch, du hast die Station der H\xF6he geschafft."
   description: 
   character: {fileID: 1432363765}
   portrait: {fileID: 0}
@@ -3663,7 +3520,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &307465512
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3684,7 +3541,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &307465513
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7819,7 +7676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42607affe4bf79408206a7c21539898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 167
+  minTime: 145
   myFlow: {fileID: 307465453}
   pieces:
   - {fileID: 2134083471}

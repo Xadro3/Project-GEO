@@ -218,8 +218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Aye Kamerad! Wir haben hier diese Wegbeschreibung aber diese ist auch
-    bei dem Sturm Kaputt gegangen
+  storyText: "Aye Kamerad! Wir haben hier eine Wegbeschreibung, allerdings ist diese
+    auch bei dem Sturm kaputt gegangen. Kannst du sie bitte vervollst\xE4ndigen?"
   description: 
   character: {fileID: 1939252620}
   portrait: {fileID: 0}
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: Siehe im Atlas auf Seite 147 nach
+  storyText: "Siehe im Atlas nach einer Karte von Afrika und versuche den Weg zur\xFCckzuverfolgen."
   description: 
   character: {fileID: 338030956}
   portrait: {fileID: 0}
@@ -347,7 +347,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 63
-    width: 77.58621
+    width: 77.397255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -373,11 +373,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 15.368289, y: 423.81332}
+  scrollPos: {x: 46.31922, y: 390.97055}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401.8
-  zoom: 0.5799999
+  zoom: 0.7300002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -434,8 +434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "WAHAHA! Mutig von dir dich den Piraten zu stellen!\r\nGratulation zum
-    Bestehen der Station des Wassers!\r"
+  storyText: "Mutig von dir dich den Piraten zu stellen!\r\nGratulation zum Bestehen
+    der Station des Wassers!\r"
   description: 
   character: {fileID: 1939252620}
   portrait: {fileID: 0}
@@ -616,7 +616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1.7368431
     y: 127.715324
-    width: 77.58621
+    width: 76.30136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -648,7 +648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2.3684216
     y: 177.15793
-    width: 116.2069
+    width: 115.7534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -676,7 +676,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.94873
     y: -2.3125
-    width: 90
+    width: 89.45204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -731,8 +731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: "Aye Kamerad! Ich verstehe\u2026dann nimm zumindest diesen Beutel als
-    Zeichen meiner Dankbarkeit an."
+  storyText: Aye Kamerad! Ich verstehe...
   description: 
   character: {fileID: 1939252620}
   portrait: {fileID: 0}
@@ -759,7 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Ich kann mich nicht erinnern so hergekommen zu sein. Bist du sicher?
+  storyText: Ich kann mich nicht erinnern so hergekommen zu sein. Bist du dir sicher?
   description: 
   character: {fileID: 1939252620}
   portrait: {fileID: 0}
@@ -788,7 +787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1.2105169
     y: -0.9473648
-    width: 73.44828
+    width: 73.013695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -797,8 +796,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 8646147}
   - {fileID: 8646131}
+  - {fileID: 8646147}
   - {fileID: 8646160}
   - {fileID: 8646146}
   suppressAllAutoSelections: 0
@@ -2488,7 +2487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c367c2022640e84dbc77374d5700b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 513
+  minTime: 510
   myFlow: {fileID: 8646139}
   pieces:
   - {fileID: 956813458}
@@ -5051,7 +5050,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "F\xFCr euren R\xFCckweg nach Madagascar m\xFCsst ihr erstmal das   ___________  
+  m_Text: "F\xFCr euren R\xFCckweg nach Madagaskar m\xFCsst ihr erstmal das   ___________  
     in Richtung Osten \xFCberqueren, bis ihr den ber\xFChmten   ___________   \xF6stlich
     von hier durchfahren k\xF6nnt. Daraufhin solltet ihr im   ___________   ankommen,
     wo ihr entlang der K\xFCste bis zum   ___________   segelt. Begebt ihr euch nun

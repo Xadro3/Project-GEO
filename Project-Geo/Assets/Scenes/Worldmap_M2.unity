@@ -1035,6 +1035,8 @@ GameObject:
   - component: {fileID: 766223325}
   - component: {fileID: 766223319}
   - component: {fileID: 766223318}
+  - component: {fileID: 766223327}
+  - component: {fileID: 766223328}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1112,7 +1114,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 766223312}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 766223310}
   variables: []
   description: 
   stepPause: 0
@@ -1276,7 +1279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Die n\xE4chste Station befindet sich in der Heimat der Pyramiden!"
+  storyText: "Die n\xE4chste Station befindet sich in der Heimat der Pyramiden! "
   description: 
   character: {fileID: 831152315}
   portrait: {fileID: 0}
@@ -1432,6 +1435,7 @@ MonoBehaviour:
   - {fileID: 766223325}
   - {fileID: 766223317}
   - {fileID: 766223316}
+  - {fileID: 766223327}
   - {fileID: 766223315}
   suppressAllAutoSelections: 0
 --- !u!114 &766223315
@@ -1506,7 +1510,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &766223318
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1523,7 +1527,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &766223319
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1651,11 +1655,12 @@ MonoBehaviour:
   - {fileID: 766223319}
   - {fileID: 766223322}
   - {fileID: 766223321}
+  - {fileID: 766223328}
   - {fileID: 766223320}
   suppressAllAutoSelections: 0
 --- !u!114 &766223325
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1672,7 +1677,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &766223326
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1687,6 +1692,62 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 1e2eeb1e7d255e04c9fb708d832acfab, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &766223327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766223297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  storyText: "Denk au\xDFerdem daran:\nNord = n\xF6rdliche L\xE4nge\nOst/West = \xF6stliche/westliche
+    Breite"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &766223328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766223297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  storyText: "Denk au\xDFerdem daran:\nNord = n\xF6rdliche L\xE4nge\nOst/West = \xF6stliche/westliche
+    Breite"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &798894280
 GameObject:
   m_ObjectHideFlags: 0

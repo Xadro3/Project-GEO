@@ -1959,7 +1959,6 @@ GameObject:
   - component: {fileID: 1388966479}
   - component: {fileID: 1388966478}
   - component: {fileID: 1388966477}
-  - component: {fileID: 1388966476}
   - component: {fileID: 1388966482}
   - component: {fileID: 1388966481}
   m_Layer: 0
@@ -1969,27 +1968,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1388966476
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1388966475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1388966477
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2021,7 +1999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.96907
     y: 95.76511
-    width: 175.17645
+    width: 183.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2031,7 +2009,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1388966477}
   commandList:
   - {fileID: 1388966482}
-  - {fileID: 1388966476}
   - {fileID: 1388966481}
   suppressAllAutoSelections: 0
 --- !u!114 &1388966479
@@ -2047,11 +2024,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -64.369774, y: 117.47384}
+  scrollPos: {x: 151.62343, y: 175.1119}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343

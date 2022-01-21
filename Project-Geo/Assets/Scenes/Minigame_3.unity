@@ -2750,11 +2750,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 52.604225, y: 221.72855}
+  scrollPos: {x: -53.690918, y: 366.7285}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.76000017
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2762,8 +2762,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 878615335}
-  selectedCommands: []
+  - {fileID: 878615284}
+  selectedCommands:
+  - {fileID: 878615271}
   variables: []
   description: 
   stepPause: 0
@@ -2873,7 +2874,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "Ganz Recht!\n Willkommen zur Station des Wassers Dr. Fogg!\n"
+  storyText: 'Ganz Recht!
+
+    Willkommen zur Station des Wassers Dr. Fogg!
+
+'
   description: 
   character: {fileID: 485812076}
   portrait: {fileID: 21300000, guid: d514d6532fac66c489c0786777d3e8b2, type: 3}
@@ -2900,9 +2905,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Wow, die Pyramiden sind tats\xE4chlich so riesig wie es sich liest!
-    \r\nUnd Kairo scheint wahrlich im Aufschwung zu sein. Diese Stadt strotz nur
-    so vor Kraft. \r\n"
+  storyText: "Wow, die Pyramiden sind tats\xE4chlich so riesig wie erz\xE4hlt wird!
+    \r\nKairo scheint wahrlich im Aufschwung zu sein.\n"
   description: 
   character: {fileID: 1744979706}
   portrait: {fileID: 0}
@@ -2980,7 +2984,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 55.63014
-    width: 77.2
+    width: 78.42104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3222,8 +3226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "Wir haben den weiten Weg aus Madagascar \xFCber die raue See aufgenommen,
-    um hier in Kairo die Pyramiden zu pl\xFCndern. Jedoch sind wir an der Wache gescheitert\u2026"
+  storyText: "Wir haben den weiten Weg aus Madagaskar \xFCber die raue See aufgenommen,
+    um hier in Kairo die Pyramiden zu pl\xFCndern. Jedoch sind wir an der Wache gescheitert..."
   description: 
   character: {fileID: 67062163}
   portrait: {fileID: 21300000, guid: 5db968d40faa551459e59d19f8c66414, type: 3}
@@ -3337,7 +3341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: Klar was gibt's
+  storyText: Klar was gibt's?
   description: 
   character: {fileID: 1744979706}
   portrait: {fileID: 0}
@@ -3513,7 +3517,7 @@ MonoBehaviour:
   itemId: 19
   indentLevel: 0
   storyText: "Dies geht allerdings Hand in Hand mit vielen neuen, unbekannten Problemen.
-    Deine Aufgabe an dieser Station ist es der \xF6rtlichen Bev\xF6lkerung bei diesen
+    Deine Aufgabe an dieser Station ist es, der \xF6rtlichen Bev\xF6lkerung bei diesen
     Problemen auszuhelfen. "
   description: 
   character: {fileID: 485812076}
@@ -3699,8 +3703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: Suche nach einer Karte der gesamten Erde im Atlas oder Willst du die
-    Meere Aktivieren?
+  storyText: Suche nach einer Karte der gesamten Erde im Atlas oder willst du die
+    Bilder der Meere aktivieren?
   description: 
   character: {fileID: 726731909}
   portrait: {fileID: 0}
@@ -3744,7 +3748,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.26028
     y: 161.14285
-    width: 117.2
+    width: 119.47367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3831,7 +3835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: "Meine Seemannsintuition sagt mir, dass da etwas nicht stimmt\u2026"
+  storyText: Meine Seemannsintuition sagt mir, dass da etwas nicht stimmt...
   description: 
   character: {fileID: 67062163}
   portrait: {fileID: 0}
@@ -3860,7 +3864,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.35079
     y: -15.226887
-    width: 74.8
+    width: 75.26315
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3926,7 +3930,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.341896
     y: 227.27802
-    width: 64.4
+    width: 64.73684
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4170,7 +4174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 149.94122
     y: -15.207367
-    width: 90.8
+    width: 92.105255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4234,9 +4238,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 139.59714
+    x: 144.59714
     y: 227.2659
-    width: 74.8
+    width: 75.26315
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4365,7 +4369,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84.66382
     y: 109.16315
-    width: 116.4
+    width: 118.421036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5711,7 +5715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: deab8baf45e0ec14780f52371225da92, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e956c5dc73701c04a8942c218d4446e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

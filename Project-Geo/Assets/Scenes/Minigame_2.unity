@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14593948b9238bb49a9d1929b6dcb3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTime: 210
+  minTime: 207
   myFlow: {fileID: 909850162}
   pieces:
   - {fileID: 1948334420}
@@ -2980,8 +2980,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 99.41977
-    y: 169.90952
-    width: 79.090904
+    y: 168.77315
+    width: 78.6567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3007,8 +3007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Es liegt also an Ihnen die Einzelteile zu einer gro\xDFen Karte zu
-    kombinieren."
+  storyText: "Es liegt also an dir die Einzelteile zu einer gro\xDFen Karte zu kombinieren."
   description: 
   character: {fileID: 2027088868}
   portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
@@ -3036,8 +3035,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: "K\xFCrzlich wurden mysteri\xF6se Kartenteile gefunden, welche allem
-    Anschein nach einer gro\xDFen Karte bilden. Allerdings konnten diese Teile noch
-    nicht richtig zusammengef\xFCgt werden. "
+    Anschein nach eine gro\xDFe Karte bilden."
   description: 
   character: {fileID: 2027088868}
   portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
@@ -3112,8 +3110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'Willkommen bei der Station der Orientierung Minjung. Ich nehme an du
-    bist Teilnehmer des Rennens um die Welt? '
+  storyText: 'Willkommen bei der Station der Orientierung. Ich nehme an du bist Teilnehmer
+    des Rennens um die Welt? '
   description: 
   character: {fileID: 2027088868}
   portrait: {fileID: 21300000, guid: fc25a2955c7b79c41a5eeec4b38ac4e6, type: 3}
@@ -3167,7 +3165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Nun, das da vorne muss wohl die zweite Station sein\u2026"
+  storyText: Nun, das da vorne muss wohl die zweite Station sein...
   description: 
   character: {fileID: 1814745205}
   portrait: {fileID: 0}
@@ -3238,7 +3236,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 99.73172
     y: 105.829285
-    width: 76.36363
+    width: 76.26865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3272,11 +3270,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 23.970997, y: 228.18642}
+  scrollPos: {x: -74.0616, y: 330.3043}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800002
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3284,8 +3282,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 909850173}
-  selectedCommands: []
+  - {fileID: 909850161}
+  selectedCommands:
+  - {fileID: 909850152}
   variables: []
   description: 
   stepPause: 0
@@ -3407,7 +3406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.00562
     y: 20.41269
-    width: 74.54545
+    width: 75.074615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3522,7 +3521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 101.136406
     y: 237.3042
-    width: 75.454544
+    width: 77.46268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3632,7 +3631,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 170.63945
     y: 19.619843
-    width: 89.99999
+    width: 89.40297
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

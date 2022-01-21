@@ -445,7 +445,7 @@ MonoBehaviour:
   storyText: Ja, ja, das ist die richtige Antwort. Die Ziellinie ist nicht mehr weit.
     Gib dein Bestes!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 919940871}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -487,7 +487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 448.5409
     y: 246.6557
-    width: 145.2
+    width: 142.41373
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 451.83582
     y: 191.68848
-    width: 77.2
+    width: 77.58619
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -627,11 +627,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -344.12073, y: 16.955788}
+  scrollPos: {x: -389.03586, y: 235.82741}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -640,7 +640,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 592660923}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 592660921}
   variables: []
   description: 
   stepPause: 0
@@ -743,7 +744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 455.41998
     y: 415.40594
-    width: 76.4
+    width: 76.20688
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -975,7 +976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.60034
     y: 347.27484
-    width: 154
+    width: 149.31027
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1005,7 +1006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.6003
     y: 294.81586
-    width: 153.2
+    width: 147.93097
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
