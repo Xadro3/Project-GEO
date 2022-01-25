@@ -274,6 +274,8 @@ GameObject:
   - component: {fileID: 41662707}
   - component: {fileID: 41662709}
   - component: {fileID: 41662708}
+  - component: {fileID: 41662732}
+  - component: {fileID: 41662729}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -485,9 +487,10 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 41662702}
+  - {fileID: 41662773}
   selectedCommands:
-  - {fileID: 41662712}
+  - {fileID: 41662729}
+  - {fileID: 41662732}
   variables:
   - {fileID: 41662774}
   description: 
@@ -1084,6 +1087,27 @@ MonoBehaviour:
   targetObject: {fileID: 1385961899}
   methodName: Activator
   delay: 0
+--- !u!114 &41662729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41662696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 701040167}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &41662730
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1125,6 +1149,27 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &41662732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41662696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2101939109}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &41662734
 MonoBehaviour:
@@ -1761,6 +1806,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 41662732}
+  - {fileID: 41662729}
   - {fileID: 41662772}
   - {fileID: 41662771}
   - {fileID: 41662770}

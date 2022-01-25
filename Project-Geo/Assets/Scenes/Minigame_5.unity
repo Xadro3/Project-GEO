@@ -2253,6 +2253,8 @@ GameObject:
   - component: {fileID: 307465507}
   - component: {fileID: 307465513}
   - component: {fileID: 307465512}
+  - component: {fileID: 307465467}
+  - component: {fileID: 307465458}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2367,9 +2369,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 307465452}
+  - {fileID: 307465502}
   selectedCommands:
-  - {fileID: 307465472}
+  - {fileID: 307465458}
   variables: []
   description: 
   stepPause: 0
@@ -2474,6 +2476,27 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &307465458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307465448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 210698717}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &307465459
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2645,6 +2668,27 @@ MonoBehaviour:
   - {fileID: 307465464}
   - {fileID: 307465463}
   suppressAllAutoSelections: 0
+--- !u!114 &307465467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307465448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1289177030}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &307465468
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3342,6 +3386,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 307465458}
+  - {fileID: 307465467}
   - {fileID: 307465506}
   - {fileID: 307465505}
   - {fileID: 307465504}
